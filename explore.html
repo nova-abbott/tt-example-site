@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore · Translation Corpus Explorer (Example)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Translation Corpus Explorer</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="explore.html" class="active">Explore</a>
+      <a href="visualize.html">Visualize</a>
+      <a href="report.html">Report</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Explore the corpus</h2>
+    <div class="controls">
+      <label>Search (English or Chinese)
+        <input id="q" type="search" placeholder="e.g., court, 法庭">
+      </label>
+      <label>Category
+        <select id="category"><option value="">All categories</option></select>
+      </label>
+      <label>Human checked?
+        <select id="checked">
+          <option value="">All</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+    </div>
+    <p class="count" id="count">Loading…</p>
+    <table>
+      <thead>
+        <tr><th>#</th><th>English (source)</th><th>Chinese (target)</th><th>Category</th><th>Checked</th></tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </main>
+
+  <footer class="site-footer"><a href="about.html">About this site and data</a></footer>
+  <script src="app.js"></script>
+  <script>
+    const el = {
+      q: document.getElementById("q"),
+      category: document.getElementById("category"),
+      checked: document.getElementById("checked"),
+      rows: document.getElementById("rows"),
+      count: document.getElementById("count"),
+    };
+
+    function render() {
+      const filtered = applyFilters(corpus, {
+        query: el.q.value,
+        category: el.category.value,
+        checked: el.checked.value,
+      });
+      el.count.textContent = `Showing ${filtered.length} of ${corpus.length} entries`;
+      el.rows.innerHTML = filtered.slice(0, 200).map(r => `
+        <tr>
+          <td>${r.id}</td>
+          <td>${highlight(r.source_text, el.q.value)}</td>
+          <td class="zh">${highlight(r.target_text, el.q.value)}</td>
+          <td>${r.category}</td>
+          <td>${r.human_checked}</td>
+        </tr>`).join("");
+    }
+
+    loadCorpus().then(() => {
+      fillSelect(el.category, corpus.map(r => r.category));
+      el.q.addEventListener("input", render);
+      el.category.addEventListener("change", render);
+      el.checked.addEventListener("change", render);
+      render();
+    }).catch(err => { el.count.textContent = "Error: " + err.message; });
+  </script>
+</body>
+</html>

@@ -1,0 +1,542 @@
+[
+ {
+  "id": 1,
+  "source_text": "No. See you in court, George.",
+  "target_text": "对 法庭见 乔治",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 2,
+  "source_text": "Who are you here to see? - We're looking for Pavlov.",
+  "target_text": "我能帮你吗",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 3,
+  "source_text": "Right in front of you.",
+  "target_text": "就在你面前,那本兒。",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 4,
+  "source_text": "Or just waited until I went down to the boat some Sunday",
+  "target_text": "或者等到某个星期天",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 5,
+  "source_text": "That's not the same thing.",
+  "target_text": "一反常态",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 6,
+  "source_text": "LOCATE MY QUARTERS AND DROP MY BAGS OFF. YES, SIR.",
+  "target_text": "－把行李放在我的住处 －是长官",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 7,
+  "source_text": "This isn't Germany or occupied France.",
+  "target_text": "这里是未被占领的法国 不是德国",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 8,
+  "source_text": "No, I'm not, really. It was just seeing the place again.",
+  "target_text": "不, 我没事儿，真的没事儿 就是旧地重游",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 9,
+  "source_text": "Shouldn`t love be the only truth?",
+  "target_text": "爱不应该是这唯一的真相吗？",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 10,
+  "source_text": "There's some things you just can't rush, buster.",
+  "target_text": "有些東西是不能操之過急的，混蛋",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 11,
+  "source_text": "If thrown off, one must remount immediately.",
+  "target_text": "如果分开了 就马上骑上去",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 12,
+  "source_text": "It's ages since I've caught up on all the news.",
+  "target_text": "我已经很久没有刷新八卦了",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 13,
+  "source_text": "What should I do? Resume as soon as possible.",
+  "target_text": "因为碰到了什么东西 所以发动机被停止了",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 14,
+  "source_text": "This one's about scouts.",
+  "target_text": "拿着，这是描写侦察兵的",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 15,
+  "source_text": "I said it! I said it! I said it!",
+  "target_text": "是我说的",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Exclamation",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 16,
+  "source_text": "That's what I mean by you make no sense.",
+  "target_text": "所以说你胡说八道",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 17,
+  "source_text": "Excuse me, please.",
+  "target_text": "请原谅, 谢谢.",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 18,
+  "source_text": "Good night, sir.",
+  "target_text": "晚安了 先生",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 19,
+  "source_text": "Goodbye, George!",
+  "target_text": "再会，乔治！",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Exclamation",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 20,
+  "source_text": "If you won't, you must do what I tell you.",
+  "target_text": "如果你不走 你一定要按我说的做",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 21,
+  "source_text": "Thanks. I'll get started now.",
+  "target_text": "谢谢，那我开始了",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 22,
+  "source_text": "When you come back, I shall be delighted.",
+  "target_text": "当你回来时．我会很乐意接受",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 23,
+  "source_text": "Let's think no more on these things.",
+  "target_text": "我们不要再想这些事了",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 24,
+  "source_text": "THE BOSS WANTS TO SEE YOU.",
+  "target_text": "- 我 干什么",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 25,
+  "source_text": "She wanted to give him money no matter what,",
+  "target_text": "白丝本想亲手把钱交给欣弥",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 26,
+  "source_text": "For five years he pulls every trick in the book.",
+  "target_text": "他这5年耍尽了手段",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 27,
+  "source_text": "When will I see you again?",
+  "target_text": "-我何时可以再见到你",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 28,
+  "source_text": "Forget it, if you want to live.",
+  "target_text": "忘了它 如果你还想活下去",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 29,
+  "source_text": "All right, Pongo. All right, boy.",
+  "target_text": "好了 庞戈 好吧 小伙计",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 30,
+  "source_text": "AND I THINK THEY CAN DO IT TOO.",
+  "target_text": "他们都很出色",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 31,
+  "source_text": "No, I didn't. Maybe he was with Kati, or Nena.",
+  "target_text": "没有 也许他和卡蒂或尼娜在一起吧",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 32,
+  "source_text": "I didn't try to kill the governor. I'm not a murderer!",
+  "target_text": "我从未试过要杀掉总督 我不是凶手",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Exclamation",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 33,
+  "source_text": "It isn't the part.",
+  "target_text": "这与角色无关， 这是一个了不起的角色",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 34,
+  "source_text": "Don't you see, Joe?",
+  "target_text": "你不明白吗 乔？",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 35,
+  "source_text": "I told you to keep away from her.",
+  "target_text": "我告诉你离她远点!",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 36,
+  "source_text": "\"Herald of Salvation\" of the Employee's Society.",
+  "target_text": "雇工社团的\"救世主的使者\"",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 37,
+  "source_text": "Yeah, yeah, you, me, Eddie, the whole bunch, huh?",
+  "target_text": "对 对 你 我 埃迪 整个乐队?",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 38,
+  "source_text": "I wanted you alive.",
+  "target_text": "我不想让你死",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 39,
+  "source_text": "Please, Roberto, you must be careful, for everyone's sake.",
+  "target_text": "求你了 罗伯托 你千万要小心 为了大家",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 40,
+  "source_text": "BEYOND THAT WHICH IS KNOWN TO MAN.",
+  "target_text": "超乎人类认知",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 41,
+  "source_text": "Because it's what people buy.",
+  "target_text": "人们需要这样!",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 42,
+  "source_text": "Yes, indeed, Mr. Milton.",
+  "target_text": "是的，真的，弥尔顿先生。 是的...",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 43,
+  "source_text": "You want me to shut that off?",
+  "target_text": "要我关掉吗？",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 44,
+  "source_text": "Is she all right?",
+  "target_text": "她好吗？",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 45,
+  "source_text": "Disappeared how?",
+  "target_text": "怎么失踪的？ 掉水里了？",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 46,
+  "source_text": "Now, don't take too much of my money away.",
+  "target_text": "不要把我的钱带走了太多",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 47,
+  "source_text": "Ladies and gentlemen, distinguished guests.",
+  "target_text": "各位尊贵的宾客...",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 48,
+  "source_text": "You were gone about four hours.",
+  "target_text": "你们去了四个小时",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 49,
+  "source_text": "Having trouble?",
+  "target_text": "碰到麻烦了？",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 50,
+  "source_text": "You must take anyone who pays",
+  "target_text": "你必须应付任何付了钱的人",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 51,
+  "source_text": "I'd like to stay here and help out.",
+  "target_text": "我想留在这帮帮忙",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 52,
+  "source_text": "Are you afraid too, friend?",
+  "target_text": "你也害怕了吗 朋友",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 53,
+  "source_text": "I'm a sinful man.",
+  "target_text": "伊芙，我是个罪孽深重的人",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 54,
+  "source_text": "The turtles come to the beach pairs.",
+  "target_text": "每次各聚集两只",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 55,
+  "source_text": "Ah, madame Dulaine.",
+  "target_text": "啊，Dulaine夫人",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 56,
+  "source_text": "Only rich people.",
+  "target_text": "只有富人。 Only rich people.",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 57,
+  "source_text": "Beat it. I don't want you.",
+  "target_text": "我不想要你",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 58,
+  "source_text": "This is your idea?",
+  "target_text": "是你的主意",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Question",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 59,
+  "source_text": "Say, buddy, will you stake a fellow...",
+  "target_text": "嘿 伙计 能赏...",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Statement",
+  "human_checked": "no",
+  "year": null
+ },
+ {
+  "id": 60,
+  "source_text": "Take care of the others, please.",
+  "target_text": "―没亨照顾好其他人",
+  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "category": "Short phrase / command",
+  "human_checked": "no",
+  "year": null
+ }
+]

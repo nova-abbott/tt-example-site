@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualize · Translation Corpus Explorer (Example)</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Translation Corpus Explorer</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore</a>
+      <a href="visualize.html" class="active">Visualize</a>
+      <a href="report.html">Report</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Visualize the corpus</h2>
+    <p>Change a filter and both charts update.</p>
+    <div class="controls">
+      <label>Category
+        <select id="category"><option value="">All categories</option></select>
+      </label>
+      <label>Human checked?
+        <select id="checked">
+          <option value="">All</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+    </div>
+    <p class="count" id="count">Loading…</p>
+
+    <div class="charts">
+      <div class="chart-box">
+        <h3>Entries per category (bar chart)</h3>
+        <canvas id="barChart"></canvas>
+      </div>
+      <div class="chart-box">
+        <h3>Share of entries by human check (pie chart)</h3>
+        <canvas id="pieChart"></canvas>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer"><a href="about.html">About this site and data</a></footer>
+  <script src="app.js"></script>
+  <script>
+    let barChart, pieChart;
+    const el = {
+      category: document.getElementById("category"),
+      checked: document.getElementById("checked"),
+      count: document.getElementById("count"),
+    };
+
+    function render() {
+      // Charts respond to the filters: the category filter narrows the data,
+      // the checked filter narrows it further.
+      const filtered = applyFilters(corpus, {
+        category: el.category.value,
+        checked: el.checked.value,
+      });
+      el.count.textContent = `${filtered.length} of ${corpus.length} entries match the filters`;
+
+      // Bar chart: counts per category (from the filtered rows)
+      const byCat = countBy(filtered, "category");
+      const barData = {
+        labels: Object.keys(byCat),
+        datasets: [{ label: "Entries", data: Object.values(byCat), backgroundColor: "#6f9fc4" }],
+      };
+      barChart.data = barData;
+      barChart.update();
+
+      // Pie chart: human_checked yes / no among the filtered rows
+      const byChk = countBy(filtered, "human_checked");
+      pieChart.data = {
+        labels: Object.keys(byChk).map(k => (k === "yes" ? "Checked" : "Not checked")),
+        datasets: [{ data: Object.values(byChk), backgroundColor: ["#3f6f96", "#c9d9e6"] }],
+      };
+      pieChart.update();
+    }
+
+    loadCorpus().then(() => {
+      fillSelect(el.category, corpus.map(r => r.category));
+      barChart = new Chart(document.getElementById("barChart"), {
+        type: "bar",
+        data: { labels: [], datasets: [] },
+        options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } },
+      });
+      pieChart = new Chart(document.getElementById("pieChart"), {
+        type: "pie",
+        data: { labels: [], datasets: [] },
+      });
+      el.category.addEventListener("change", render);
+      el.checked.addEventListener("change", render);
+      render();
+    }).catch(err => { el.count.textContent = "Error: " + err.message; });
+  </script>
+</body>
+</html>

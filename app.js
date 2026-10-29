@@ -1,7 +1,7 @@
 // Shared logic for the example site.
 // Loads data/sample.json, then powers the Explore and Visualize pages.
 // Students: replace data/sample.json with your own corpus (same field names),
-// then adjust the category labels and charts.
+// then add any new category labels to i18n.js (both `en` and `zh`).
 
 const DATA_URL = "data/sample.json";
 let corpus = [];
@@ -34,20 +34,28 @@ function highlight(text, query) {
   return safe.replace(new RegExp(esc, "gi"), m => "<mark>" + m + "</mark>");
 }
 
+// Show a category in the current language, falling back to the raw value.
+function catLabel(c) {
+  const key = "cat." + c;
+  const s = t(key);
+  return s === key ? c : s;
+}
+
 function countBy(rows, key) {
   const out = {};
   rows.forEach(r => { out[r[key]] = (out[r[key]] || 0) + 1; });
   return out;
 }
 
-function fillSelect(select, values) {
+// Fill a <select> with values, keeping its first ("All ...") option.
+function fillSelect(select, values, labelFn = v => v) {
   const first = select.options[0];
   select.innerHTML = "";
   select.appendChild(first);
   [...new Set(values)].sort().forEach(v => {
     const opt = document.createElement("option");
     opt.value = v;
-    opt.textContent = v;
+    opt.textContent = labelFn(v);
     select.appendChild(opt);
   });
 }

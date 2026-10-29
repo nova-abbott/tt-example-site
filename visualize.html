@@ -3,52 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visualize · Translation Corpus Explorer (Example)</title>
+  <title data-i18n="title.visualize">Visualize · Translation Corpus Explorer (Example)</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
 <body>
   <header class="site-header">
-    <h1>Translation Corpus Explorer</h1>
+    <h1><span data-i18n="site.name">Translation Corpus Explorer</span> <small class="badge" data-i18n="site.badge">Example</small></h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="explore.html">Explore</a>
-      <a href="visualize.html" class="active">Visualize</a>
-      <a href="report.html">Report</a>
-      <a href="about.html">About</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="explore.html" data-i18n="nav.explore">Explore</a>
+      <a href="visualize.html" class="active" data-i18n="nav.visualize">Visualize</a>
+      <a href="codebook.html" data-i18n="nav.codebook">Codebook</a>
+      <a href="report.html" data-i18n="nav.report">Report</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
     </nav>
   </header>
 
   <main>
-    <h2>Visualize the corpus</h2>
-    <p>Change a filter and both charts update.</p>
+    <h2 data-i18n="viz.h2">Visualize the corpus</h2>
+    <p data-i18n="viz.p">Change a filter and both charts update.</p>
     <div class="controls">
-      <label>Category
-        <select id="category"><option value="">All categories</option></select>
+      <label><span data-i18n="explore.cat">Category</span>
+        <select id="category"><option value="" data-i18n="explore.cat.all">All categories</option></select>
       </label>
-      <label>Human checked?
+      <label><span data-i18n="explore.chk">Human checked?</span>
         <select id="checked">
-          <option value="">All</option>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
+          <option value="" data-i18n="opt.all">All</option>
+          <option value="yes" data-i18n="opt.yes">Yes</option>
+          <option value="no" data-i18n="opt.no">No</option>
         </select>
       </label>
     </div>
-    <p class="count" id="count">Loading…</p>
+    <p class="count" id="count" data-i18n="status.loading">Loading…</p>
 
     <div class="charts">
       <div class="chart-box">
-        <h3>Entries per category (bar chart)</h3>
+        <h3 data-i18n="viz.bar.h">Entries per category (bar chart)</h3>
         <canvas id="barChart"></canvas>
       </div>
       <div class="chart-box">
-        <h3>Share of entries by human check (pie chart)</h3>
+        <h3 data-i18n="viz.pie.h">Share of entries by human check (pie chart)</h3>
         <canvas id="pieChart"></canvas>
       </div>
     </div>
   </main>
 
-  <footer class="site-footer"><a href="about.html">About this site and data</a></footer>
+  <footer class="site-footer"><a href="about.html" data-i18n="footer.about">About this site and data</a></footer>
+  <script src="i18n.js"></script>
   <script src="app.js"></script>
   <script>
     let barChart, pieChart;
@@ -65,28 +67,25 @@
         category: el.category.value,
         checked: el.checked.value,
       });
-      el.count.textContent = `${filtered.length} of ${corpus.length} entries match the filters`;
+      el.count.textContent = t("viz.count", { n: filtered.length, total: corpus.length });
 
-      // Bar chart: counts per category (from the filtered rows)
       const byCat = countBy(filtered, "category");
-      const barData = {
-        labels: Object.keys(byCat),
-        datasets: [{ label: "Entries", data: Object.values(byCat), backgroundColor: "#6f9fc4" }],
+      barChart.data = {
+        labels: Object.keys(byCat).map(catLabel),
+        datasets: [{ label: t("viz.bar.label"), data: Object.values(byCat), backgroundColor: "#6f9fc4" }],
       };
-      barChart.data = barData;
       barChart.update();
 
-      // Pie chart: human_checked yes / no among the filtered rows
       const byChk = countBy(filtered, "human_checked");
       pieChart.data = {
-        labels: Object.keys(byChk).map(k => (k === "yes" ? "Checked" : "Not checked")),
+        labels: Object.keys(byChk).map(k => t(k === "yes" ? "viz.pie.checked" : "viz.pie.notchecked")),
         datasets: [{ data: Object.values(byChk), backgroundColor: ["#3f6f96", "#c9d9e6"] }],
       };
       pieChart.update();
     }
 
     loadCorpus().then(() => {
-      fillSelect(el.category, corpus.map(r => r.category));
+      fillSelect(el.category, corpus.map(r => r.category), catLabel);
       barChart = new Chart(document.getElementById("barChart"), {
         type: "bar",
         data: { labels: [], datasets: [] },
@@ -98,8 +97,12 @@
       });
       el.category.addEventListener("change", render);
       el.checked.addEventListener("change", render);
+      document.addEventListener("langchange", () => {
+        fillSelect(el.category, corpus.map(r => r.category), catLabel);
+        render();
+      });
       render();
-    }).catch(err => { el.count.textContent = "Error: " + err.message; });
+    }).catch(err => { el.count.textContent = t("status.error") + err.message; });
   </script>
 </body>
 </html>

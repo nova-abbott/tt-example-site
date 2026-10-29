@@ -3,50 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Translation Corpus Explorer (Example)</title>
+  <title data-i18n="title.index">Translation Corpus Explorer (Example)</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <h1>Translation Corpus Explorer</h1>
+    <h1><span data-i18n="site.name">Translation Corpus Explorer</span> <small class="badge" data-i18n="site.badge">Example</small></h1>
     <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="explore.html">Explore</a>
-      <a href="visualize.html">Visualize</a>
-      <a href="report.html">Report</a>
-      <a href="about.html">About</a>
+      <a href="index.html" class="active" data-i18n="nav.home">Home</a>
+      <a href="explore.html" data-i18n="nav.explore">Explore</a>
+      <a href="visualize.html" data-i18n="nav.visualize">Visualize</a>
+      <a href="codebook.html" data-i18n="nav.codebook">Codebook</a>
+      <a href="report.html" data-i18n="nav.report">Report</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <h2>An example site for your final project</h2>
-      <p>This is a small, working example. It uses <strong>sample data</strong> from OpenSubtitles (60 English–Chinese subtitle pairs). Read the code, copy the structure, and replace the data with your own corpus.</p>
+      <h2 data-i18n="index.h2">An example site for your final project</h2>
+      <p data-i18n="index.p">This is a small, working example.</p>
     </section>
 
     <section class="cards">
       <a class="card" href="explore.html">
-        <h3>Explore</h3>
-        <p>Search the corpus by keyword and filter by category and human check.</p>
+        <h3 data-i18n="card.explore.h">Explore</h3>
+        <p data-i18n="card.explore.p">Search the corpus by keyword and filter by category and human check.</p>
       </a>
       <a class="card" href="visualize.html">
-        <h3>Visualize</h3>
-        <p>Two charts that update when you change the filters.</p>
+        <h3 data-i18n="card.visualize.h">Visualize</h3>
+        <p data-i18n="card.visualize.p">Two charts that update when you change the filters.</p>
+      </a>
+      <a class="card" href="codebook.html">
+        <h3 data-i18n="card.codebook.h">Codebook</h3>
+        <p data-i18n="card.codebook.p">An example codebook: how to define categories and apply them consistently.</p>
       </a>
       <a class="card" href="report.html">
-        <h3>Report</h3>
-        <p>A learning report: origin, gap, method, analysis, conclusion, and reflection.</p>
+        <h3 data-i18n="card.report.h">Report</h3>
+        <p data-i18n="card.report.p">A learning report: origin, gap, method, analysis, conclusion, and reflection.</p>
       </a>
     </section>
 
     <section class="notice">
-      <strong>Sample data notice.</strong> The entries on this site are examples taken from a public subtitle corpus. Some alignments are imperfect. This is intentional: it shows why spot-checking matters.
+      <strong data-i18n="notice.h">Sample data notice.</strong>
+      <span data-i18n="notice.p">The entries on this site are examples.</span>
     </section>
   </main>
 
   <footer class="site-footer">
-    <a href="about.html">About this site and data</a>
+    <a href="about.html" data-i18n="footer.about">About this site and data</a>
   </footer>
+  <script src="i18n.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

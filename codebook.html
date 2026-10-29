@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="title.codebook">Codebook · Translation Corpus Explorer (Example)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1><span data-i18n="site.name">Translation Corpus Explorer</span> <small class="badge" data-i18n="site.badge">Example</small></h1>
+    <nav>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="explore.html" data-i18n="nav.explore">Explore</a>
+      <a href="visualize.html" data-i18n="nav.visualize">Visualize</a>
+      <a href="codebook.html" class="active" data-i18n="nav.codebook">Codebook</a>
+      <a href="report.html" data-i18n="nav.report">Report</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="about">
+      <h2 data-i18n="codebook.h2">Codebook (example)</h2>
+      <p class="notice" data-i18n="codebook.note">This codebook is an illustrative example.</p>
+
+      <h2 data-i18n="codebook.what.h">What is a codebook?</h2>
+      <p data-i18n="codebook.what.p">A codebook defines each category.</p>
+
+      <h2 data-i18n="codebook.struct.h">What each category needs</h2>
+      <p data-i18n="codebook.struct.p">Each category should have a name, a definition, and more.</p>
+
+      <h2 data-i18n="codebook.cat.h">Categories (illustrative)</h2>
+
+      <div class="cb-card">
+        <h3 data-i18n="cb.lit.h">L — Literal</h3>
+        <p data-i18n-html="cb.lit.p"></p>
+      </div>
+      <div class="cb-card">
+        <h3 data-i18n="cb.dom.h">D — Domesticated</h3>
+        <p data-i18n-html="cb.dom.p"></p>
+      </div>
+      <div class="cb-card cb-flag">
+        <h3 data-i18n="cb.align.h">A — Alignment error (a flag, not a strategy)</h3>
+        <p data-i18n-html="cb.align.p"></p>
+      </div>
+
+      <h2 data-i18n="cb.bound.h">Boundary case</h2>
+      <p data-i18n="cb.bound.p">The codebook should not decide this for you.</p>
+
+      <h2 data-i18n="cb.rules.h">Decision order (for the example)</h2>
+      <div data-i18n-html="cb.rules.p"></div>
+
+      <h2 data-i18n="cb.mine.h">Writing your own codebook</h2>
+      <p data-i18n="cb.mine.p">Use the template in the assignment brief.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer"><a href="about.html" data-i18n="footer.about">About this site and data</a></footer>
+  <script src="i18n.js"></script>
+</body>
+</html>

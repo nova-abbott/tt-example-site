@@ -3,73 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learning Report · Translation Corpus Explorer (Example)</title>
+  <title data-i18n="title.report">Learning Report · Translation Corpus Explorer (Example)</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <h1>Translation Corpus Explorer</h1>
+    <h1><span data-i18n="site.name">Translation Corpus Explorer</span> <small class="badge" data-i18n="site.badge">Example</small></h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="explore.html">Explore</a>
-      <a href="visualize.html">Visualize</a>
-      <a href="report.html" class="active">Report</a>
-      <a href="about.html">About</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="explore.html" data-i18n="nav.explore">Explore</a>
+      <a href="visualize.html" data-i18n="nav.visualize">Visualize</a>
+      <a href="codebook.html" data-i18n="nav.codebook">Codebook</a>
+      <a href="report.html" class="active" data-i18n="nav.report">Report</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
     </nav>
   </header>
 
   <main>
     <article class="report">
-      <h2>Learning Report</h2>
-      <p><em>Example structure. Replace each paragraph with your own text. Keep the eight section headings.</em></p>
+      <h2 data-i18n="report.h2">Learning Report</h2>
+      <p><em data-i18n="report.note">Example structure.</em></p>
 
       <section id="origin">
-        <h2>1. Origin</h2>
-        <p>Why did you choose this topic? Describe the moment you noticed the translation problem. Be personal and specific.</p>
+        <h2 data-i18n="report.s1">1. Origin</h2>
+        <p data-i18n="report.s1.p">Why did you choose this topic?</p>
       </section>
 
       <section id="background">
-        <h2>2. Background</h2>
-        <p>What is the context? Introduce the languages, the text type, and the translation issue in a few sentences.</p>
+        <h2 data-i18n="report.s2">2. Background</h2>
+        <p data-i18n="report.s2.p">What is the context?</p>
       </section>
 
       <section id="gap">
-        <h2>3. Gap</h2>
-        <p>What is missing or unclear in what already exists? Name the gap in one sentence, then explain it.</p>
+        <h2 data-i18n="report.s3">3. Gap</h2>
+        <p data-i18n="report.s3.p">What is missing or unclear in what already exists?</p>
       </section>
 
       <section id="questions">
-        <h2>4. Questions</h2>
+        <h2 data-i18n="report.s4">4. Questions</h2>
         <ol>
-          <li>Question one.</li>
-          <li>Question two.</li>
+          <li data-i18n="report.li1">Question one.</li>
+          <li data-i18n="report.li2">Question two.</li>
         </ol>
       </section>
 
       <section id="method">
-        <h2>5. Method</h2>
-        <p>Where did your data come from? How did you collect it, clean it, and categorize it? How many entries did you check by hand, and how many errors did you find?</p>
-        <div class="placeholder">Insert a screenshot or a simple diagram of your workflow here.</div>
+        <h2 data-i18n="report.s5">5. Method</h2>
+        <p data-i18n="report.s5.p">Where did your data come from?</p>
+        <div class="placeholder" data-i18n="report.ph.method">Insert a screenshot or a simple diagram of your workflow here.</div>
       </section>
 
       <section id="analysis">
-        <h2>6. Analysis</h2>
-        <p>What does the data show? Refer to a chart on your Visualize page.</p>
-        <div class="placeholder">Insert your chart image here, with a caption that states the key finding.</div>
+        <h2 data-i18n="report.s6">6. Analysis</h2>
+        <p data-i18n="report.s6.p">What does the data show?</p>
+        <div class="placeholder" data-i18n="report.ph.analysis">Insert your chart image here.</div>
       </section>
 
       <section id="conclusion">
-        <h2>7. Conclusion</h2>
-        <p>What did you achieve? Answer your questions directly. State the limits of your data.</p>
+        <h2 data-i18n="report.s7">7. Conclusion</h2>
+        <p data-i18n="report.s7.p">What did you achieve?</p>
       </section>
 
       <section id="reflection">
-        <h2>8. Reflection</h2>
-        <p>What did you learn? What was difficult? What did AI help with, and where did it fail? What would you do differently?</p>
+        <h2 data-i18n="report.s8">8. Reflection</h2>
+        <p data-i18n="report.s8.p">What did you learn?</p>
       </section>
     </article>
   </main>
 
-  <footer class="site-footer"><a href="about.html">About this site and data</a></footer>
+  <footer class="site-footer"><a href="about.html" data-i18n="footer.about">About this site and data</a></footer>
+  <script src="i18n.js"></script>
 </body>
 </html>

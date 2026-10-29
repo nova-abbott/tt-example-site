@@ -3,43 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About · Translation Corpus Explorer (Example)</title>
+  <title data-i18n="title.about">About · Translation Corpus Explorer (Example)</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <h1>Translation Corpus Explorer</h1>
+    <h1><span data-i18n="site.name">Translation Corpus Explorer</span> <small class="badge" data-i18n="site.badge">Example</small></h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="explore.html">Explore</a>
-      <a href="visualize.html">Visualize</a>
-      <a href="report.html">Report</a>
-      <a href="about.html" class="active">About</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="explore.html" data-i18n="nav.explore">Explore</a>
+      <a href="visualize.html" data-i18n="nav.visualize">Visualize</a>
+      <a href="codebook.html" data-i18n="nav.codebook">Codebook</a>
+      <a href="report.html" data-i18n="nav.report">Report</a>
+      <a href="about.html" class="active" data-i18n="nav.about">About</a>
     </nav>
   </header>
 
   <main>
     <article class="about">
-      <h2>About this site</h2>
-      <p>This is an example site for the 2026R1 final project. It shows the structure students can adapt: search and filters, two charts that respond to filters, and a learning report.</p>
+      <h2 data-i18n="about.h2">About this site</h2>
+      <p data-i18n="about.p1">This is an example site for the 2026R1 final project.</p>
 
-      <h2>Data source</h2>
-      <p>The sample data (<code>data/sample.json</code>) contains 60 English–Chinese subtitle pairs from the <strong>OpenSubtitles</strong> corpus (version 2024, English–Simplified Chinese). Entries were selected at random and filtered to remove profanity. Chinese text is in Simplified characters because that is how the source corpus is written.</p>
-      <p>Source: <a href="https://www.opensubtitles.org/" target="_blank" rel="noopener">opensubtitles.org</a>. Please cite the corpus you use in your own project. Other corpora: OPUS (<a href="https://opus.nlpl.eu/" target="_blank" rel="noopener">opus.nlpl.eu</a>).</p>
+      <h2 data-i18n="about.h.source">Data source</h2>
+      <p data-i18n-html="about.p.source">The sample data contains 60 subtitle pairs.</p>
 
-      <h2>Human check</h2>
-      <p>All sample entries are marked <code>human_checked: "no"</code>. Some alignments are imperfect. For example, one English line may be paired with a Chinese line that does not match. Your own project should mark only entries you have checked yourself.</p>
+      <h2 data-i18n="about.h.human">Human check</h2>
+      <p data-i18n-html="about.p.human">All sample entries are marked as not checked.</p>
 
-      <h2>AI use declaration (example)</h2>
-      <p>This example site was built with an AI agent. The agent wrote the HTML, CSS, and JavaScript. The sample data was extracted from the local corpus files with a script. The developer checked the code by running it locally and by viewing the published pages.</p>
+      <h2 data-i18n="about.h.ai">AI use declaration (example)</h2>
+      <p data-i18n="about.p.ai">This example site was built with an AI agent.</p>
 
-      <h2>Copyright and privacy</h2>
-      <p>The sample uses short subtitle lines for demonstration only. Do not publish full copyrighted texts or personal information on your own site.</p>
+      <h2 data-i18n="about.h.codebook">Codebook</h2>
+      <p data-i18n-html="about.p.codebook">See the Codebook page.</p>
 
-      <p><a href="index.html">← Back to Home</a></p>
+      <h2 data-i18n="about.h.rights">Copyright and privacy</h2>
+      <p data-i18n="about.p.rights">Do not publish full copyrighted texts or personal information.</p>
+
+      <p><a href="index.html" data-i18n="about.back">← Back to Home</a></p>
     </article>
   </main>
 
-  <footer class="site-footer"><a href="index.html">Home</a></footer>
+  <footer class="site-footer"><a href="index.html" data-i18n="nav.home">Home</a></footer>
+  <script src="i18n.js"></script>
 </body>
 </html>

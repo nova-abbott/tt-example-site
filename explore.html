@@ -65,6 +65,11 @@
       count: document.getElementById("count"),
     };
 
+    // Every English word links to the Visualize page with that word selected.
+    function linkWords(html) {
+      return html.replace(/(<[^>]+>)|(&[a-z#0-9]+;)|([A-Za-z][A-Za-z']{2,})/g, (m, tag, ent, w) =>
+        tag || ent ? m : `<a class="w" href="visualize.html?term=${encodeURIComponent(w.toLowerCase())}">${w}</a>`);
+    }
     function render() {
       const filtered = applyFilters(corpus, {
         query: el.q.value,
@@ -75,7 +80,7 @@
       el.rows.innerHTML = filtered.slice(0, 200).map(r => `
         <tr>
           <td>${r.id}</td>
-          <td>${highlight(r.source_text, el.q.value)}</td>
+          <td>${linkWords(highlight(r.source_text, el.q.value))}</td>
           <td class="zh">${highlight(r.target_text, el.q.value)}</td>
           <td>${catLabel(r.category)}</td>
           <td>${t("opt." + r.human_checked)}</td>
@@ -84,6 +89,9 @@
 
     loadCorpus().then(() => {
       fillSelect(el.category, corpus.map(r => r.category), catLabel);
+      const P = new URLSearchParams(location.search);
+      if (P.get("q")) el.q.value = P.get("q");
+      if (P.get("cat")) el.category.value = P.get("cat");
       el.q.addEventListener("input", render);
       el.category.addEventListener("change", render);
       el.checked.addEventListener("change", render);

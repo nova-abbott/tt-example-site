@@ -22,35 +22,16 @@
 
   <main>
     <h2 data-i18n="viz.h2">Visualize the corpus</h2>
-    <p data-i18n="viz.p">Change a filter and both charts update.</p>
-    <div class="controls">
-      <label><span data-i18n="explore.cat">Category</span>
-        <select id="category"><option value="" data-i18n="explore.cat.all">All categories</option></select>
-      </label>
-      <label><span data-i18n="explore.chk">Human checked?</span>
-        <select id="checked">
-          <option value="" data-i18n="opt.all">All</option>
-          <option value="yes" data-i18n="opt.yes">Yes</option>
-          <option value="no" data-i18n="opt.no">No</option>
-        </select>
-      </label>
-    </div>
+    <p data-i18n="viz.p">Click a bar in any chart. The other two follow.</p>
+    <div class="chips" id="chips"></div>
     <p class="count" id="count" data-i18n="status.loading">Loading…</p>
-
     <div class="charts">
-      <div class="chart-box">
-        <h3 data-i18n="viz.bar.h">Entries per category (bar chart)</h3>
-        <canvas id="barChart"></canvas>
-      </div>
-      <div class="chart-box">
-        <h3 data-i18n="viz.pie.h">Share of entries by human check (pie chart)</h3>
-        <canvas id="pieChart"></canvas>
-      </div>
-      <div class="chart-box">
-        <h3 data-i18n="viz.len.h">Average source length by category, in words (horizontal bar chart)</h3>
-        <canvas id="lenChart"></canvas>
-      </div>
+      <div class="chart-box"><h3 data-i18n="viz.cat.h">1 · Categories</h3><canvas id="catChart"></canvas></div>
+      <div class="chart-box"><h3 data-i18n="viz.term.h">2 · Key terms (English side)</h3><canvas id="termChart"></canvas></div>
+      <div class="chart-box"><h3 data-i18n="viz.zh.h">3 · Chinese renderings (character pairs)</h3><canvas id="zhChart"></canvas></div>
     </div>
+    <h3 data-i18n="viz.ex.h">Examples</h3>
+    <ul id="examples" class="examples"></ul>
   </main>
 
   <footer class="site-footer"><a href="about.html" data-i18n="footer.about">About this site and data</a>
@@ -59,81 +40,78 @@
   <script src="i18n.js"></script>
   <script src="app.js"></script>
   <script>
-    let barChart, pieChart, lenChart;
-    const el = {
-      category: document.getElementById("category"),
-      checked: document.getElementById("checked"),
-      count: document.getElementById("count"),
-    };
+    const STOP = new Set("a an the and or but of to in on at for from with by is are was were be been am i you he she it we they me him her us them my your his its our their this that these those do does did have has had not no yes so as if then than there here what who whom which when where why how will would can could should shall may might just very too also all any some more most up out about into over after before s t don it's i'm".split(" "));
+    const state = { term: "", cat: "" };
+    let charts = {};
+    const q = new URLSearchParams(location.search);
+    state.term = q.get("term") || ""; state.cat = q.get("cat") || "";
 
-    function render() {
-      // Charts respond to the filters: the category filter narrows the data,
-      // the checked filter narrows it further.
-      const filtered = applyFilters(corpus, {
-        category: el.category.value,
-        checked: el.checked.value,
-      });
-      el.count.textContent = t("viz.count", { n: filtered.length, total: corpus.length });
+    function syncUrl() {
+      const p = new URLSearchParams();
+      if (state.term) p.set("term", state.term);
+      if (state.cat) p.set("cat", state.cat);
+      history.replaceState(null, "", p.toString() ? "?" + p : location.pathname);
+    }
+    function words(text) { return (text.toLowerCase().match(/[a-z']+/g) || []).filter(w => w.length > 2 && !STOP.has(w)); }
+    function zhPairs(text) {
+      const han = text.replace(/[^\u4e00-\u9fff]/g, " ").split(/\s+/), out = [];
+      han.forEach(seg => { for (let i = 0; i < seg.length - 1; i++) out.push(seg.slice(i, i + 2)); });
+      return out;
+    }
+    function top(rows, fn, n) {
+      const c = {};
+      rows.forEach(r => new Set(fn(r)).forEach(w => { c[w] = (c[w] || 0) + 1; }));
+      return Object.entries(c).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, n);
+    }
+    function pick(key, val) { state[key] = state[key] === val ? "" : val; render(); }
+    function esc(x) { return x.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 
-      const byCat = countBy(filtered, "category");
-      barChart.data = {
-        labels: Object.keys(byCat).map(catLabel),
-        datasets: [{ label: t("viz.bar.label"), data: Object.values(byCat), backgroundColor: "#6f9fc4" }],
+    function barChart(id, entries, color, onClick, activeVal, labelFn = v => v) {
+      const cfg = {
+        type: "bar",
+        data: { labels: entries.map(e => labelFn(e[0])),
+          datasets: [{ data: entries.map(e => e[1]),
+            backgroundColor: entries.map(e => e[0] === activeVal ? "#1f4e79" : color) }] },
+        options: { indexAxis: "y", plugins: { legend: { display: false } },
+          scales: { x: { beginAtZero: true, ticks: { precision: 0 } } },
+          onClick: (ev, els) => { if (els.length) onClick(entries[els[0].index][0]); },
+          onHover: (ev, els) => { ev.native.target.style.cursor = els.length ? "pointer" : "default"; } },
       };
-      barChart.update();
-
-      const byChk = countBy(filtered, "human_checked");
-      pieChart.data = {
-        labels: Object.keys(byChk).map(k => t(k === "yes" ? "viz.pie.checked" : "viz.pie.notchecked")),
-        datasets: [{ data: Object.values(byChk), backgroundColor: ["#3f6f96", "#c9d9e6"] }],
-      };
-      pieChart.update();
-
-      // Mean source length (in words) per category, over the filtered rows.
-      const groups = {};
-      filtered.forEach(r => {
-        const n = r.source_text.trim().split(/\s+/).filter(Boolean).length;
-        (groups[r.category] = groups[r.category] || []).push(n);
-      });
-      const cats = Object.keys(groups).sort();
-      lenChart.data = {
-        labels: cats.map(catLabel),
-        datasets: [{
-          label: t("viz.len.label"),
-          data: cats.map(c => +(groups[c].reduce((a, b) => a + b, 0) / groups[c].length).toFixed(1)),
-          backgroundColor: "#8fb7d6",
-        }],
-      };
-      lenChart.update();
+      if (charts[id]) { charts[id].destroy(); }
+      charts[id] = new Chart(document.getElementById(id), cfg);
     }
 
+    function render() {
+      syncUrl();
+      // Each chart is drawn from the rows left after the OTHER filters, so a
+      // selected bar stays visible and you can switch to a neighbour.
+      const byTerm = applyFilters(corpus, { query: state.term });
+      const byCat = applyFilters(corpus, { category: state.cat });
+      const both = applyFilters(corpus, { query: state.term, category: state.cat });
+
+      barChart("catChart", Object.entries(countBy(byTerm, "category")).sort((a, b) => b[1] - a[1]),
+        "#6f9fc4", v => pick("cat", v), state.cat, catLabel);
+      barChart("termChart", top(byCat, r => words(r.source_text), 12), "#8fb7d6", v => pick("term", v), state.term);
+      barChart("zhChart", top(both, r => zhPairs(r.target_text), 12), "#a9c7a0", v => pick("term", v), state.term);
+
+      el.count.textContent = t("viz.count", { n: both.length, total: corpus.length });
+      const chips = [];
+      if (state.cat) chips.push(`<button data-clear="cat">${esc(catLabel(state.cat))} ✕</button>`);
+      if (state.term) chips.push(`<button data-clear="term">“${esc(state.term)}” ✕</button>`);
+      if (state.term || state.cat) {
+        const p = new URLSearchParams(); if (state.term) p.set("q", state.term); if (state.cat) p.set("cat", state.cat);
+        chips.push(`<a class="go" href="explore.html?${p}">${t("viz.open")} →</a>`);
+      }
+      document.getElementById("chips").innerHTML = chips.join(" ");
+      document.querySelectorAll("#chips [data-clear]").forEach(b => b.onclick = () => { state[b.dataset.clear] = ""; render(); });
+      document.getElementById("examples").innerHTML = both.slice(0, 5).map(r =>
+        `<li>${highlight(r.source_text, state.term)}<br><span class="zh">${highlight(r.target_text, state.term)}</span></li>`).join("");
+    }
+
+    const el = { count: document.getElementById("count") };
     loadCorpus().then(() => {
-      fillSelect(el.category, corpus.map(r => r.category), catLabel);
-      barChart = new Chart(document.getElementById("barChart"), {
-        type: "bar",
-        data: { labels: [], datasets: [] },
-        options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { precision: 0 } } } },
-      });
-      pieChart = new Chart(document.getElementById("pieChart"), {
-        type: "pie",
-        data: { labels: [], datasets: [] },
-      });
-      lenChart = new Chart(document.getElementById("lenChart"), {
-        type: "bar",
-        data: { labels: [], datasets: [] },
-        options: {
-          indexAxis: "y",
-          plugins: { legend: { display: false } },
-          scales: { x: { beginAtZero: true } },
-        },
-      });
-      el.category.addEventListener("change", render);
-      el.checked.addEventListener("change", render);
-      document.addEventListener("langchange", () => {
-        fillSelect(el.category, corpus.map(r => r.category), catLabel);
-        render();
-      });
       render();
+      document.addEventListener("langchange", render);
     }).catch(err => { el.count.textContent = t("status.error") + err.message; });
   </script>
 </body>

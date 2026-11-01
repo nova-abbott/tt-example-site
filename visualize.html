@@ -8,6 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -34,6 +35,8 @@
       <div class="chart-box wide"><h3 data-i18n="viz.net.h">4 · Co-occurrence network (English key terms)</h3><p class="cap" data-i18n="viz.net.p">Which key terms appear in the same entry? Thicker lines mean more shared entries. Click a node to filter; drag to move it; double-click to unpin.</p><div id="netctl" class="netctl"></div><div id="net"></div></div>
       <div class="chart-box wide"><h3 data-i18n="viz.sk.h">5 · Sankey (category → key term)</h3><p class="cap" data-i18n="viz.sk.p">Which categories carry which key terms? Band width is the number of entries. Click a category or term to filter.</p><div id="sankey"></div></div>
       <div class="chart-box wide"><h3 data-i18n="viz.tm.h">6 · Treemap</h3><p class="cap" data-i18n="viz.tm.p">Rectangle area is the number of entries. Click a rectangle to filter by its category or term.</p><div id="treemap"></div></div>
+      <div class="chart-box wide"><h3 data-i18n="viz.wc.h">7 · Word cloud</h3><p class="cap" data-i18n="viz.wc.p">Which English words dominate the current selection? Size is the number of entries. Click a word to filter.</p><div id="cloud"></div></div>
+      <div class="chart-box wide"><h3 data-i18n="viz.sb.h">8 · Sunburst (category → key term)</h3><p class="cap" data-i18n="viz.sb.p">The same hierarchy as the treemap, in rings. Click an arc to filter.</p><div id="sunburst"></div></div>
     </div>
     <h3 data-i18n="viz.ex.h">Examples</h3>
     <ul id="examples" class="examples"></ul>
@@ -222,6 +225,53 @@
       g.append("title").text(d => `${d.data.name}: ${d.value}`);
     }
 
+    // Word cloud: size = number of entries containing the word.
+    function cloudChart(rows) {
+      const box = document.getElementById("cloud"); box.innerHTML = "";
+      const ws = topN(rows, r => words(r.source_text), 60);
+      if (!ws.length) { box.textContent = t("viz.none"); return; }
+      const W = box.clientWidth || 640, H = 320, mx = ws[0][1];
+      d3.layout.cloud().size([W, H]).words(ws.map(([w, n]) => ({ text: w, n, size: 12 + 36 * Math.sqrt(n / mx) })))
+        .padding(3).rotate(() => 0).font("sans-serif").fontSize(d => d.size)
+        .on("end", out => {
+          const svg = d3.select(box).append("svg").attr("viewBox", [0, 0, W, H]).attr("width", "100%").attr("height", H);
+          svg.append("g").attr("transform", `translate(${W / 2},${H / 2})`).selectAll("text").data(out).join("text")
+            .attr("text-anchor", "middle").attr("transform", d => `translate(${d.x},${d.y})`)
+            .attr("font-size", d => d.size).attr("font-family", "sans-serif").style("cursor", "pointer")
+            .attr("fill", d => d.text === state.term ? "#1f4e79" : d3.interpolateBlues(0.45 + 0.5 * d.n / mx))
+            .attr("font-weight", d => d.text === state.term ? 800 : 400)
+            .text(d => d.text).on("click", (e, d) => pick("term", d.text)).append("title").text(d => `${d.text}: ${d.n}`);
+        }).start();
+    }
+
+    // Sunburst: category (inner ring) -> key term (outer ring).
+    function sunburstChart(rows) {
+      const box = document.getElementById("sunburst"); box.innerHTML = "";
+      if (!rows.length) { box.textContent = t("viz.none"); return; }
+      const byCat = {};
+      rows.forEach(r => { const c = r.category, k = r.key_term || "(other)"; byCat[c] = byCat[c] || {}; byCat[c][k] = (byCat[c][k] || 0) + 1; });
+      const data = { name: "root", children: Object.entries(byCat).map(([c, kids]) => ({ name: c, kind: "cat",
+        children: Object.entries(kids).map(([k, n]) => ({ name: k, kind: "term", value: n })) })) };
+      const R = 170, size = R * 2 + 20;
+      const root = d3.hierarchy(data).sum(d => d.value || 0);
+      d3.partition().size([2 * Math.PI, R])(root);
+      const arc = d3.arc().startAngle(d => d.x0).endAngle(d => d.x1).innerRadius(d => d.y0 * 0.98).outerRadius(d => d.y1 - 1);
+      const color = d3.scaleOrdinal(["#3f6f96", "#6f9fc4", "#8fb7d6", "#a9c7a0", "#c9a9c7"]);
+      const svg = d3.select(box).append("svg").attr("viewBox", [0, 0, size, size]).attr("width", "100%").attr("height", 380);
+      const g = svg.append("g").attr("transform", `translate(${size / 2},${size / 2})`);
+      g.selectAll("path").data(root.descendants().filter(d => d.depth > 0)).join("path").attr("d", arc)
+        .attr("fill", d => color(d.depth === 1 ? d.data.name : d.parent.data.name))
+        .attr("fill-opacity", d => d.depth === 1 ? 1 : 0.7)
+        .attr("stroke", d => (d.data.name === state.term || d.data.name === state.cat) ? "#1f4e79" : "#fff").attr("stroke-width", 1.5)
+        .style("cursor", "pointer")
+        .on("click", (e, d) => d.data.kind === "cat" ? pick("cat", d.data.name) : pick("term", d.data.name))
+        .append("title").text(d => `${d.data.name}: ${d.value}`);
+      g.selectAll("text").data(root.descendants().filter(d => d.depth === 1 && (d.x1 - d.x0) > 0.3)).join("text")
+        .attr("transform", d => { const a = (d.x0 + d.x1) / 2, r = (d.y0 + d.y1) / 2; return `translate(${Math.sin(a) * r},${-Math.cos(a) * r})`; })
+        .attr("text-anchor", "middle").attr("font-size", 10).attr("fill", "#fff").style("pointer-events", "none")
+        .text(d => catLabel(d.data.name));
+    }
+
     function render() {
       syncUrl();
       const byTerm = applyFilters(corpus, { query: state.term });
@@ -236,6 +286,8 @@
       drawNetwork(both);
       sankeyChart(byCat);
       treemapChart(byCat);
+      cloudChart(both);
+      sunburstChart(byCat);
 
       el.count.textContent = t("viz.count", { n: both.length, total: corpus.length });
       const chips = [];

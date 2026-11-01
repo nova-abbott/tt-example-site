@@ -6,6 +6,8 @@
   <title data-i18n="title.visualize">Visualize · Translation Corpus Explorer (Example)</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -22,13 +24,15 @@
 
   <main>
     <h2 data-i18n="viz.h2">Visualize the corpus</h2>
-    <p data-i18n="viz.p">Click a bar in any chart. The other two follow.</p>
+    <p data-i18n="viz.p">Click a bar, node or band in any chart. The others follow.</p>
     <div class="chips" id="chips"></div>
     <p class="count" id="count" data-i18n="status.loading">Loading…</p>
     <div class="charts">
       <div class="chart-box"><h3 data-i18n="viz.cat.h">1 · Categories</h3><canvas id="catChart"></canvas></div>
       <div class="chart-box"><h3 data-i18n="viz.term.h">2 · Key terms (English side)</h3><canvas id="termChart"></canvas></div>
       <div class="chart-box"><h3 data-i18n="viz.zh.h">3 · Chinese renderings (character pairs)</h3><canvas id="zhChart"></canvas></div>
+      <div class="chart-box wide"><h3 data-i18n="viz.net.h">4 · Co-occurrence network (English key terms)</h3><p class="cap" data-i18n="viz.net.p">Which key terms appear in the same entry? Thicker lines mean more shared entries. Click a node to search for it.</p><div id="net"></div></div>
+      <div class="chart-box wide"><h3 data-i18n="viz.sk.h">5 · Sankey (category → key term)</h3><p class="cap" data-i18n="viz.sk.p">Which categories carry which key terms? Band width is the number of entries. Click a category or term to filter.</p><div id="sankey"></div></div>
     </div>
     <h3 data-i18n="viz.ex.h">Examples</h3>
     <ul id="examples" class="examples"></ul>
@@ -42,9 +46,10 @@
   <script>
     const STOP = new Set("a an the and or but of to in on at for from with by is are was were be been am i you he she it we they me him her us them my your his its our their this that these those do does did have has had not no yes so as if then than there here what who whom which when where why how will would can could should shall may might just very too also all any some more most up out about into over after before s t don it's i'm".split(" "));
     const state = { term: "", cat: "" };
-    let charts = {};
-    const q = new URLSearchParams(location.search);
-    state.term = q.get("term") || ""; state.cat = q.get("cat") || "";
+    const charts = {};
+    const P0 = new URLSearchParams(location.search);
+    state.term = (P0.get("term") || "").toLowerCase();
+    state.cat = P0.get("cat") || "";
 
     function syncUrl() {
       const p = new URLSearchParams();
@@ -54,8 +59,8 @@
     }
     function words(text) { return (text.toLowerCase().match(/[a-z']+/g) || []).filter(w => w.length > 2 && !STOP.has(w)); }
     function zhPairs(text) {
-      const han = text.replace(/[^\u4e00-\u9fff]/g, " ").split(/\s+/), out = [];
-      han.forEach(seg => { for (let i = 0; i < seg.length - 1; i++) out.push(seg.slice(i, i + 2)); });
+      const out = [];
+      text.replace(/[^\u4e00-\u9fff]/g, " ").split(/\s+/).forEach(seg => { for (let i = 0; i < seg.length - 1; i++) out.push(seg.slice(i, i + 2)); });
       return out;
     }
     function topN(rows, fn, n) {
@@ -65,9 +70,14 @@
     }
     function pick(key, val) { state[key] = state[key] === val ? "" : val; render(); }
     function esc(x) { return x.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
+    function linkWords(html) {
+      return html.replace(/(<[^>]+>)|(&[a-z#0-9]+;)|([A-Za-z][A-Za-z']{2,})/g, (m, tag, ent, w) =>
+        tag || ent ? m : `<a class="w" href="explore.html?q=${encodeURIComponent(w)}">${w}</a>`);
+    }
 
     function barChart(id, entries, color, onClick, activeVal, labelFn = v => v) {
-      const cfg = {
+      if (charts[id]) charts[id].destroy();
+      charts[id] = new Chart(document.getElementById(id), {
         type: "bar",
         data: { labels: entries.map(e => labelFn(e[0])),
           datasets: [{ data: entries.map(e => e[1]),
@@ -76,15 +86,87 @@
           scales: { x: { beginAtZero: true, ticks: { precision: 0 } } },
           onClick: (ev, els) => { if (els.length) onClick(entries[els[0].index][0]); },
           onHover: (ev, els) => { ev.native.target.style.cursor = els.length ? "pointer" : "default"; } },
-      };
-      if (charts[id]) { charts[id].destroy(); }
-      charts[id] = new Chart(document.getElementById(id), cfg);
+      });
+    }
+
+    // Network: nodes = top English key terms; edge = two terms share an entry.
+    function network(rows) {
+      const box = document.getElementById("net"); box.innerHTML = "";
+      const df = topN(rows, r => words(r.source_text), 15);
+      if (!df.length) { box.textContent = t("viz.none"); return; }
+      const names = new Set(df.map(e => e[0]));
+      const cnt = Object.fromEntries(df);
+      const pair = {};
+      rows.forEach(r => {
+        const ws = [...new Set(words(r.source_text))].filter(w => names.has(w)).sort();
+        for (let i = 0; i < ws.length; i++) for (let j = i + 1; j < ws.length; j++) {
+          const k = ws[i] + "|" + ws[j]; pair[k] = (pair[k] || 0) + 1;
+        }
+      });
+      const nodes = df.map(e => ({ id: e[0], n: e[1] }));
+      const links = Object.entries(pair).map(([k, v]) => { const [a, b] = k.split("|"); return { source: a, target: b, v }; });
+      const W = box.clientWidth || 640, H = 380;
+      const svg = d3.select(box).append("svg").attr("viewBox", [0, 0, W, H]).attr("width", "100%").attr("height", H);
+      const sim = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(80))
+        .force("charge", d3.forceManyBody().strength(-220))
+        .force("center", d3.forceCenter(W / 2, H / 2))
+        .force("collide", d3.forceCollide(d => 10 + Math.sqrt(d.n) * 3));
+      const link = svg.append("g").attr("stroke", "#9bb7cc").attr("stroke-opacity", .8)
+        .selectAll("line").data(links).join("line").attr("stroke-width", d => 1 + d.v);
+      const node = svg.append("g").selectAll("g").data(nodes).join("g")
+        .style("cursor", "pointer").on("click", (e, d) => pick("term", d.id));
+      node.append("circle").attr("r", d => 6 + Math.sqrt(d.n) * 3)
+        .attr("fill", d => d.id === state.term ? "#1f4e79" : "#6f9fc4");
+      node.append("text").text(d => d.id).attr("dy", d => -(10 + Math.sqrt(d.n) * 3)).attr("text-anchor", "middle").attr("font-size", 12);
+      node.append("title").text(d => `${d.id}: ${d.n}`);
+      sim.on("tick", () => {
+        nodes.forEach(d => { d.x = Math.max(30, Math.min(W - 30, d.x)); d.y = Math.max(30, Math.min(H - 30, d.y)); });
+        link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+        node.attr("transform", d => `translate(${d.x},${d.y})`);
+      });
+    }
+
+    // Sankey: categories (left) -> English key terms (right); band width = entries.
+    function sankeyChart(rows) {
+      const box = document.getElementById("sankey"); box.innerHTML = "";
+      const terms = topN(rows, r => words(r.source_text), 8).map(e => e[0]);
+      const agg = {}, usedCats = new Set(), usedTerms = new Set();
+      rows.forEach(r => {
+        const ws = new Set(words(r.source_text));
+        terms.forEach(tm => { if (ws.has(tm)) { agg[r.category + "\u0001" + tm] = (agg[r.category + "\u0001" + tm] || 0) + 1; usedCats.add(r.category); usedTerms.add(tm); } });
+      });
+      const cats = [...usedCats].sort(), tms = terms.filter(x => usedTerms.has(x));
+      if (!cats.length) { box.textContent = t("viz.none"); return; }
+      const nodes = [...cats.map(c => ({ name: c, kind: "cat", key: c })), ...tms.map(x => ({ name: x, kind: "term", key: x }))];
+      const idx = {}; nodes.forEach((d, i) => { idx[d.kind + ":" + d.key] = i; });
+      const links = Object.entries(agg).map(([k, v]) => {
+        const [c, tm] = k.split("\u0001");
+        return { source: idx["cat:" + c], target: idx["term:" + tm], value: v };
+      });
+      const W = box.clientWidth || 640, H = Math.max(280, 28 * Math.max(cats.length, tms.length) + 40);
+      const g = d3.sankey().nodeWidth(14).nodePadding(12).extent([[90, 8], [W - 150, H - 8]])
+        .nodeId(d => d.index)
+        ({ nodes: nodes.map(d => ({ ...d })), links: links.map(d => ({ ...d })) });
+      const svg = d3.select(box).append("svg").attr("viewBox", [0, 0, W, H]).attr("width", "100%").attr("height", H);
+      svg.append("g").attr("fill", "none").selectAll("path").data(g.links).join("path")
+        .attr("d", d3.sankeyLinkHorizontal()).attr("stroke", "#6f9fc4").attr("stroke-opacity", .4)
+        .attr("stroke-width", d => Math.max(1, d.width)).style("cursor", "pointer")
+        .on("click", (e, d) => pick("term", d.target.key))
+        .append("title").text(d => `${d.source.name} → ${d.target.name}: ${d.value}`);
+      const nd = svg.append("g").selectAll("g").data(g.nodes).join("g").style("cursor", "pointer")
+        .on("click", (e, d) => pick(d.kind === "cat" ? "cat" : "term", d.key));
+      nd.append("rect").attr("x", d => d.x0).attr("y", d => d.y0).attr("width", d => d.x1 - d.x0)
+        .attr("height", d => Math.max(1, d.y1 - d.y0))
+        .attr("fill", d => (d.kind === "cat" ? d.key === state.cat : d.key === state.term) ? "#1f4e79" : (d.kind === "cat" ? "#3f6f96" : "#8fb7d6"));
+      nd.append("text").attr("x", d => d.kind === "cat" ? d.x0 - 6 : d.x1 + 6)
+        .attr("y", d => (d.y0 + d.y1) / 2).attr("dy", "0.35em")
+        .attr("text-anchor", d => d.kind === "cat" ? "end" : "start").attr("font-size", 12)
+        .text(d => d.kind === "cat" ? catLabel(d.key) : d.key);
     }
 
     function render() {
       syncUrl();
-      // Each chart is drawn from the rows left after the OTHER filters, so a
-      // selected bar stays visible and you can switch to a neighbour.
       const byTerm = applyFilters(corpus, { query: state.term });
       const byCat = applyFilters(corpus, { category: state.cat });
       const both = applyFilters(corpus, { query: state.term, category: state.cat });
@@ -93,6 +175,8 @@
         "#6f9fc4", v => pick("cat", v), state.cat, catLabel);
       barChart("termChart", topN(byCat, r => words(r.source_text), 12), "#8fb7d6", v => pick("term", v), state.term);
       barChart("zhChart", topN(both, r => zhPairs(r.target_text), 12), "#a9c7a0", v => pick("term", v), state.term);
+      network(both);
+      sankeyChart(byCat);
 
       el.count.textContent = t("viz.count", { n: both.length, total: corpus.length });
       const chips = [];
@@ -105,13 +189,14 @@
       document.getElementById("chips").innerHTML = chips.join(" ");
       document.querySelectorAll("#chips [data-clear]").forEach(b => b.onclick = () => { state[b.dataset.clear] = ""; render(); });
       document.getElementById("examples").innerHTML = both.slice(0, 5).map(r =>
-        `<li>${highlight(r.source_text, state.term)}<br><span class="zh">${highlight(r.target_text, state.term)}</span></li>`).join("");
+        `<li>${linkWords(highlight(r.source_text, state.term))}<br><span class="zh">${highlight(r.target_text, state.term)}</span></li>`).join("");
     }
 
     const el = { count: document.getElementById("count") };
     loadCorpus().then(() => {
       render();
       document.addEventListener("langchange", render);
+      window.addEventListener("resize", render);
     }).catch(err => { el.count.textContent = t("status.error") + err.message; });
   </script>
 </body>

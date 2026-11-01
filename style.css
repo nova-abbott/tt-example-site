@@ -202,3 +202,7 @@ mark { background: #ffe89a; padding: 0 2px; border-radius: 3px; }
 .examples li { background: var(--card); border-radius: var(--radius); padding: .6rem .9rem; margin: .4rem 0; }
 a.w { color: inherit; text-decoration: underline dotted; }
 a.w:hover { color: var(--accent-dark); }
+
+.chart-box.wide { grid-column: 1 / -1; }
+.chart-box .cap { color: var(--muted); font-size: .9rem; margin: .2rem 0 .6rem; }
+#net svg, #sankey svg { display: block; }

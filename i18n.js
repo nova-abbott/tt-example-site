@@ -116,7 +116,7 @@ const I18N = {
     "cb.rules.h": "Decision order (for the example)",
     "cb.rules.p": "<ol><li>Check the alignment first. If the pair is not the same sentence, code <strong>A</strong>.</li><li>Compare structure and wording. If they are kept, code <strong>L</strong>.</li><li>If the target uses a different idiom that Chinese readers would expect, code <strong>D</strong>.</li><li>If you are still unsure, mark the entry as a boundary case, record both options, and choose one with a reason.</li></ol>",
     "cb.mine.h": "Writing your own codebook",
-    "cb.mine.p": "Use the template in the assignment brief. Start with two to four categories, test them on 20 to 30 entries, then revise the definitions. Record every change and why you made it. AI can draft the codebook, but you must rewrite the definitions in your own words and be able to explain them in your oral presentation.",
+    "cb.mine.p": "Use the template in the assignment brief. Start with three to six categories, test them on 20 to 30 entries, then revise the definitions. Keep a log of every change and why you made it, and put it next to your manual check of at least 50 entries. AI can draft the codebook, but you must rewrite the definitions in your own words and be able to explain them in your oral presentation.",
 
     "cat.Statement": "Statement",
     "cat.Question": "Question",
@@ -237,7 +237,7 @@ const I18N = {
     "cb.rules.h": "判斷順序（以本範例為例）",
     "cb.rules.p": "<ol><li>先檢查對齊。若兩行不是同一句話，編 <strong>A</strong>。</li><li>比較結構與用詞。若都保留，編 <strong>L</strong>。</li><li>若譯文使用中文讀者會預期的另一種習語，編 <strong>D</strong>。</li><li>若仍不確定，標記為邊界案例，記錄兩種選項，並選一個附上理由。</li></ol>",
     "cb.mine.h": "撰寫你自己的編碼手冊",
-    "cb.mine.p": "請使用作業說明中的範本。先從兩到四個類別開始，在 20 到 30 筆上測試，再修訂定義。每次修改都要記錄原因。AI 可以起草編碼手冊，但定義必須由你以自己的話改寫，並能在口頭報告中說明。",
+    "cb.mine.p": "請使用作業說明中的範本。先從三到六個類別開始，在 20 到 30 筆上測試，再修訂定義。每次修改都要記錄原因，並與至少 50 筆的人工檢查紀錄放在一起。AI 可以起草編碼手冊，但定義必須由你以自己的話改寫，並能在口頭報告中說明。",
 
     "cat.Statement": "陳述句",
     "cat.Question": "疑問句",

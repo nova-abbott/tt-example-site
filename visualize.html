@@ -31,7 +31,7 @@
       <div class="chart-box"><h3 data-i18n="viz.cat.h">1 · Categories</h3><canvas id="catChart"></canvas></div>
       <div class="chart-box"><h3 data-i18n="viz.term.h">2 · Key terms (English side)</h3><canvas id="termChart"></canvas></div>
       <div class="chart-box"><h3 data-i18n="viz.zh.h">3 · Chinese renderings (character pairs)</h3><canvas id="zhChart"></canvas></div>
-      <div class="chart-box wide"><h3 data-i18n="viz.net.h">4 · Co-occurrence network (English key terms)</h3><p class="cap" data-i18n="viz.net.p">Which key terms appear in the same entry? Thicker lines mean more shared entries. Click a node to search for it.</p><div id="net"></div></div>
+      <div class="chart-box wide"><h3 data-i18n="viz.net.h">4 · Co-occurrence network (English key terms)</h3><p class="cap" data-i18n="viz.net.p">Which key terms appear in the same entry? Thicker lines mean more shared entries. Click a node to filter; drag to move it; double-click to unpin.</p><div id="netctl" class="netctl"></div><div id="net"></div></div>
       <div class="chart-box wide"><h3 data-i18n="viz.sk.h">5 · Sankey (category → key term)</h3><p class="cap" data-i18n="viz.sk.p">Which categories carry which key terms? Band width is the number of entries. Click a category or term to filter.</p><div id="sankey"></div></div>
       <div class="chart-box wide"><h3 data-i18n="viz.tm.h">6 · Treemap</h3><p class="cap" data-i18n="viz.tm.p">Rectangle area is the number of entries. Click a rectangle to filter by its category or term.</p><div id="treemap"></div></div>
     </div>
@@ -91,12 +91,34 @@
     }
 
     // Network: nodes = top English key terms; edge = two terms share an entry.
-    function network(rows) {
+    // Controls: top-N terms, minimum shared entries, keyword filter, labels, zoom/pan, drag-and-pin.
+    const netS = { topN: 15, minW: 1, kw: "", labels: true, pinned: {} };
+    function buildNetControls() {
+      const box = document.getElementById("netctl");
+      box.innerHTML = `
+        <label>${t("net.topn")} <output id="o-topn">${netS.topN}</output>
+          <input type="range" id="r-topn" min="5" max="30" step="1" value="${netS.topN}"></label>
+        <label>${t("net.minw")} <output id="o-minw">${netS.minW}</output>
+          <input type="range" id="r-minw" min="1" max="10" step="1" value="${netS.minW}"></label>
+        <label>${t("net.kw")} <input type="search" id="i-kw" value="${esc(netS.kw)}" placeholder="e.g., friend, know"></label>
+        <label class="inline"><input type="checkbox" id="c-labels" ${netS.labels ? "checked" : ""}> ${t("net.labels")}</label>
+        <button type="button" id="b-reset">${t("net.reset")}</button>`;
+      document.getElementById("r-topn").addEventListener("input", e => { netS.topN = +e.target.value; document.getElementById("o-topn").textContent = netS.topN; drawNetwork(lastBoth); });
+      document.getElementById("r-minw").addEventListener("input", e => { netS.minW = +e.target.value; document.getElementById("o-minw").textContent = netS.minW; drawNetwork(lastBoth); });
+      document.getElementById("i-kw").addEventListener("change", e => { netS.kw = e.target.value.trim(); drawNetwork(lastBoth); });
+      document.getElementById("c-labels").addEventListener("change", e => { netS.labels = e.target.checked; drawNetwork(lastBoth); });
+      document.getElementById("b-reset").addEventListener("click", () => { netS.topN = 15; netS.minW = 1; netS.kw = ""; netS.labels = true; netS.pinned = {}; buildNetControls(); drawNetwork(lastBoth); });
+    }
+    let lastBoth = [];
+    function drawNetwork(rows) {
+      lastBoth = rows;
       const box = document.getElementById("net"); box.innerHTML = "";
-      const df = topN(rows, r => words(r.source_text), 15);
-      if (!df.length) { box.textContent = t("viz.none"); return; }
-      const names = new Set(df.map(e => e[0]));
-      const cnt = Object.fromEntries(df);
+      const kws = netS.kw.toLowerCase().split(",").map(s => s.trim()).filter(Boolean);
+      const ranked = topN(rows, r => words(r.source_text), 400)
+        .filter(e => !kws.length || kws.some(k => e[0].includes(k)))
+        .slice(0, netS.topN);
+      if (!ranked.length) { box.textContent = t("viz.none"); return; }
+      const names = new Set(ranked.map(e => e[0]));
       const pair = {};
       rows.forEach(r => {
         const ws = [...new Set(words(r.source_text))].filter(w => names.has(w)).sort();
@@ -104,25 +126,34 @@
           const k = ws[i] + "|" + ws[j]; pair[k] = (pair[k] || 0) + 1;
         }
       });
-      const nodes = df.map(e => ({ id: e[0], n: e[1] }));
-      const links = Object.entries(pair).map(([k, v]) => { const [a, b] = k.split("|"); return { source: a, target: b, v }; });
-      const W = box.clientWidth || 640, H = 380;
+      const links = Object.entries(pair).filter(([, v]) => v >= netS.minW).map(([k, v]) => { const [s, tg] = k.split("|"); return { source: s, target: tg, v }; });
+      const nodes = ranked.map(e => ({ id: e[0], n: e[1], fx: netS.pinned[e[0]]?.x ?? null, fy: netS.pinned[e[0]]?.y ?? null }));
+      const W = box.clientWidth || 640, H = 420;
       const svg = d3.select(box).append("svg").attr("viewBox", [0, 0, W, H]).attr("width", "100%").attr("height", H);
+      const g = svg.append("g");
+      svg.call(d3.zoom().scaleExtent([0.4, 4]).on("zoom", e => g.attr("transform", e.transform)));
       const sim = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.id).distance(80))
-        .force("charge", d3.forceManyBody().strength(-220))
+        .force("link", d3.forceLink(links).id(d => d.id).distance(90))
+        .force("charge", d3.forceManyBody().strength(-260))
         .force("center", d3.forceCenter(W / 2, H / 2))
-        .force("collide", d3.forceCollide(d => 10 + Math.sqrt(d.n) * 3));
-      const link = svg.append("g").attr("stroke", "#9bb7cc").attr("stroke-opacity", .8)
+        .force("collide", d3.forceCollide(d => 8 + Math.sqrt(d.n) * 3));
+      const link = g.append("g").attr("stroke", "#9bb7cc").attr("stroke-opacity", .8)
         .selectAll("line").data(links).join("line").attr("stroke-width", d => 1 + d.v);
-      const node = svg.append("g").selectAll("g").data(nodes).join("g")
-        .style("cursor", "pointer").on("click", (e, d) => pick("term", d.id));
+      const node = g.append("g").selectAll("g").data(nodes).join("g")
+        .style("cursor", "pointer")
+        .on("click", (e, d) => pick("term", d.id))
+        .on("dblclick", (e, d) => { d.fx = null; d.fy = null; delete netS.pinned[d.id]; sim.alpha(.4).restart(); })
+        .call(d3.drag().clickDistance(4)
+          .on("start", (e, d) => { if (!e.active) sim.alphaTarget(.3).restart(); d.fx = d.x; d.fy = d.y; })
+          .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+          .on("end", (e, d) => { if (!e.active) sim.alphaTarget(0); netS.pinned[d.id] = { x: d.fx, y: d.fy }; }));
       node.append("circle").attr("r", d => 6 + Math.sqrt(d.n) * 3)
-        .attr("fill", d => d.id === state.term ? "#1f4e79" : "#6f9fc4");
-      node.append("text").text(d => d.id).attr("dy", d => -(10 + Math.sqrt(d.n) * 3)).attr("text-anchor", "middle").attr("font-size", 12);
+        .attr("fill", d => d.id === state.term ? "#1f4e79" : "#6f9fc4")
+        .attr("stroke", d => netS.pinned[d.id] ? "#1f4e79" : "none").attr("stroke-width", 2).attr("stroke-dasharray", "3 2");
+      if (netS.labels) node.append("text").text(d => d.id).attr("dy", d => -(10 + Math.sqrt(d.n) * 3)).attr("text-anchor", "middle").attr("font-size", 12);
       node.append("title").text(d => `${d.id}: ${d.n}`);
       sim.on("tick", () => {
-        nodes.forEach(d => { d.x = Math.max(30, Math.min(W - 30, d.x)); d.y = Math.max(30, Math.min(H - 30, d.y)); });
+        nodes.forEach(d => { d.x = Math.max(20, Math.min(W - 20, d.x)); d.y = Math.max(20, Math.min(H - 20, d.y)); });
         link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
         node.attr("transform", d => `translate(${d.x},${d.y})`);
       });
@@ -201,7 +232,8 @@
         "#6f9fc4", v => pick("cat", v), state.cat, catLabel);
       barChart("termChart", topN(byCat, r => words(r.source_text), 12), "#8fb7d6", v => pick("term", v), state.term);
       barChart("zhChart", topN(both, r => zhPairs(r.target_text), 12), "#a9c7a0", v => pick("term", v), state.term);
-      network(both);
+      buildNetControls();
+      drawNetwork(both);
       sankeyChart(byCat);
       treemapChart(byCat);
 

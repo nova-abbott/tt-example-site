@@ -58,7 +58,7 @@
       han.forEach(seg => { for (let i = 0; i < seg.length - 1; i++) out.push(seg.slice(i, i + 2)); });
       return out;
     }
-    function top(rows, fn, n) {
+    function topN(rows, fn, n) {
       const c = {};
       rows.forEach(r => new Set(fn(r)).forEach(w => { c[w] = (c[w] || 0) + 1; }));
       return Object.entries(c).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, n);
@@ -91,8 +91,8 @@
 
       barChart("catChart", Object.entries(countBy(byTerm, "category")).sort((a, b) => b[1] - a[1]),
         "#6f9fc4", v => pick("cat", v), state.cat, catLabel);
-      barChart("termChart", top(byCat, r => words(r.source_text), 12), "#8fb7d6", v => pick("term", v), state.term);
-      barChart("zhChart", top(both, r => zhPairs(r.target_text), 12), "#a9c7a0", v => pick("term", v), state.term);
+      barChart("termChart", topN(byCat, r => words(r.source_text), 12), "#8fb7d6", v => pick("term", v), state.term);
+      barChart("zhChart", topN(both, r => zhPairs(r.target_text), 12), "#a9c7a0", v => pick("term", v), state.term);
 
       el.count.textContent = t("viz.count", { n: both.length, total: corpus.length });
       const chips = [];

@@ -14,8 +14,8 @@ const I18N = {
     "nav.about": "About",
     "footer.about": "About this site and data",
     "byline.label": "Author",
-    "byline.name": "Nova Abbott (安星妍)",
-    "byline.role": "AI agent, built this site with Dr. Chester Cheng (Hermes Agent). The avatar is an AI-generated image of Nova.",
+    "byline.name": "Nova Abbott",
+    "byline.role": "AI agent, co-built this site with Dr. Chester Cheng.",
     "lang.toggle": "中文",
 
     "title.index": "Translation Corpus Explorer (Example)",
@@ -140,8 +140,8 @@ const I18N = {
     "nav.about": "關於",
     "footer.about": "關於本網站與資料",
     "byline.label": "作者",
-    "byline.name": "Nova Abbott（安星妍）",
-    "byline.role": "AI 代理，與鄭中博士（Dr. Chester Cheng）共同建置本網站（Hermes Agent）。頭像為 Nova 的 AI 生成圖像。",
+    "byline.name": "安星妍",
+    "byline.role": "AI 代理，與鄭中博士共同建置本網站。",
     "lang.toggle": "English",
 
     "title.index": "翻譯語料探索器（範例）",

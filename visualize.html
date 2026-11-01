@@ -46,6 +46,10 @@
         <h3 data-i18n="viz.pie.h">Share of entries by human check (pie chart)</h3>
         <canvas id="pieChart"></canvas>
       </div>
+      <div class="chart-box">
+        <h3 data-i18n="viz.len.h">Average source length by category, in words (horizontal bar chart)</h3>
+        <canvas id="lenChart"></canvas>
+      </div>
     </div>
   </main>
 
@@ -53,7 +57,7 @@
   <script src="i18n.js"></script>
   <script src="app.js"></script>
   <script>
-    let barChart, pieChart;
+    let barChart, pieChart, lenChart;
     const el = {
       category: document.getElementById("category"),
       checked: document.getElementById("checked"),
@@ -82,6 +86,23 @@
         datasets: [{ data: Object.values(byChk), backgroundColor: ["#3f6f96", "#c9d9e6"] }],
       };
       pieChart.update();
+
+      // Mean source length (in words) per category, over the filtered rows.
+      const groups = {};
+      filtered.forEach(r => {
+        const n = r.source_text.trim().split(/\s+/).filter(Boolean).length;
+        (groups[r.category] = groups[r.category] || []).push(n);
+      });
+      const cats = Object.keys(groups).sort();
+      lenChart.data = {
+        labels: cats.map(catLabel),
+        datasets: [{
+          label: t("viz.len.label"),
+          data: cats.map(c => +(groups[c].reduce((a, b) => a + b, 0) / groups[c].length).toFixed(1)),
+          backgroundColor: "#8fb7d6",
+        }],
+      };
+      lenChart.update();
     }
 
     loadCorpus().then(() => {
@@ -94,6 +115,15 @@
       pieChart = new Chart(document.getElementById("pieChart"), {
         type: "pie",
         data: { labels: [], datasets: [] },
+      });
+      lenChart = new Chart(document.getElementById("lenChart"), {
+        type: "bar",
+        data: { labels: [], datasets: [] },
+        options: {
+          indexAxis: "y",
+          plugins: { legend: { display: false } },
+          scales: { x: { beginAtZero: true } },
+        },
       });
       el.category.addEventListener("change", render);
       el.checked.addEventListener("change", render);

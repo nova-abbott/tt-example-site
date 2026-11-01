@@ -1,542 +1,5002 @@
 [
  {
-  "id": 1,
-  "source_text": "No. See you in court, George.",
-  "target_text": "对 法庭见 乔治",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 2,
-  "source_text": "Who are you here to see? - We're looking for Pavlov.",
-  "target_text": "我能帮你吗",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 3,
-  "source_text": "Right in front of you.",
-  "target_text": "就在你面前,那本兒。",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 4,
-  "source_text": "Or just waited until I went down to the boat some Sunday",
-  "target_text": "或者等到某个星期天",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 5,
-  "source_text": "That's not the same thing.",
-  "target_text": "一反常态",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 6,
-  "source_text": "LOCATE MY QUARTERS AND DROP MY BAGS OFF. YES, SIR.",
-  "target_text": "－把行李放在我的住处 －是长官",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 7,
-  "source_text": "This isn't Germany or occupied France.",
-  "target_text": "这里是未被占领的法国 不是德国",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 8,
-  "source_text": "No, I'm not, really. It was just seeing the place again.",
-  "target_text": "不, 我没事儿，真的没事儿 就是旧地重游",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 9,
-  "source_text": "Shouldn`t love be the only truth?",
-  "target_text": "爱不应该是这唯一的真相吗？",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Question",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 10,
-  "source_text": "There's some things you just can't rush, buster.",
-  "target_text": "有些東西是不能操之過急的，混蛋",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 11,
-  "source_text": "If thrown off, one must remount immediately.",
-  "target_text": "如果分开了 就马上骑上去",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 12,
-  "source_text": "It's ages since I've caught up on all the news.",
-  "target_text": "我已经很久没有刷新八卦了",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 13,
-  "source_text": "What should I do? Resume as soon as possible.",
-  "target_text": "因为碰到了什么东西 所以发动机被停止了",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 14,
-  "source_text": "This one's about scouts.",
-  "target_text": "拿着，这是描写侦察兵的",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 15,
-  "source_text": "I said it! I said it! I said it!",
-  "target_text": "是我说的",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-001",
+  "source_text": "Child!",
+  "target_text": "孩子！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7180 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Exclamation",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 16,
-  "source_text": "That's what I mean by you make no sense.",
-  "target_text": "所以说你胡说八道",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 17,
-  "source_text": "Excuse me, please.",
-  "target_text": "请原谅, 谢谢.",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 18,
-  "source_text": "Good night, sir.",
-  "target_text": "晚安了 先生",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 19,
-  "source_text": "Goodbye, George!",
-  "target_text": "再会，乔治！",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-002",
+  "source_text": "Extra.!",
+  "target_text": "号外！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 85056 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Exclamation",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 20,
-  "source_text": "If you won't, you must do what I tell you.",
-  "target_text": "如果你不走 你一定要按我说的做",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-003",
+  "source_text": "But-",
+  "target_text": "但是...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 172172 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-004",
+  "source_text": "You know what we're interested in.",
+  "target_text": "-你的文件會印這個嗎? -你知道我們對什麼感興趣",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 311281 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "know",
+  "human_checked": "no"
  },
  {
-  "id": 21,
-  "source_text": "Thanks. I'll get started now.",
-  "target_text": "谢谢，那我开始了",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 22,
-  "source_text": "When you come back, I shall be delighted.",
-  "target_text": "当你回来时．我会很乐意接受",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 23,
-  "source_text": "Let's think no more on these things.",
-  "target_text": "我们不要再想这些事了",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 24,
-  "source_text": "THE BOSS WANTS TO SEE YOU.",
-  "target_text": "- 我 干什么",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 25,
-  "source_text": "She wanted to give him money no matter what,",
-  "target_text": "白丝本想亲手把钱交给欣弥",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 26,
-  "source_text": "For five years he pulls every trick in the book.",
-  "target_text": "他这5年耍尽了手段",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 27,
-  "source_text": "When will I see you again?",
-  "target_text": "-我何时可以再见到你",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-005",
+  "source_text": "What's wrong with that?",
+  "target_text": "有何不妥?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 385502 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "what's",
+  "human_checked": "no"
  },
  {
-  "id": 28,
-  "source_text": "Forget it, if you want to live.",
-  "target_text": "忘了它 如果你还想活下去",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "id": "OS24-006",
+  "source_text": "-Stop shouting.",
+  "target_text": "- 别大吵大闹的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 470855 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 29,
-  "source_text": "All right, Pongo. All right, boy.",
-  "target_text": "好了 庞戈 好吧 小伙计",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 30,
-  "source_text": "AND I THINK THEY CAN DO IT TOO.",
-  "target_text": "他们都很出色",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 31,
-  "source_text": "No, I didn't. Maybe he was with Kati, or Nena.",
-  "target_text": "没有 也许他和卡蒂或尼娜在一起吧",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 32,
-  "source_text": "I didn't try to kill the governor. I'm not a murderer!",
-  "target_text": "我从未试过要杀掉总督 我不是凶手",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-007",
+  "source_text": "I hold that the very law we're here to enforce excludes such testimony!",
+  "target_text": "我认为我们在此要执行的法律 是不允许这样的证词出现的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 474187 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Exclamation",
-  "human_checked": "no",
-  "year": null
+  "key_term": "we're",
+  "human_checked": "no"
  },
  {
-  "id": 33,
-  "source_text": "It isn't the part.",
-  "target_text": "这与角色无关， 这是一个了不起的角色",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-008",
+  "source_text": "Then he will come to me and find a sister, a true friend in me.",
+  "target_text": "他就会来找我，把我当做他的 姐妹和朋友",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 830114 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "come",
+  "human_checked": "no"
  },
  {
-  "id": 34,
-  "source_text": "Don't you see, Joe?",
-  "target_text": "你不明白吗 乔？",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-009",
+  "source_text": "Well, hello, Dolly",
+  "target_text": "（你好呀，多莉）",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 851482 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "well",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-010",
+  "source_text": "- ... Virus Omega.",
+  "target_text": "-奥米加病毒",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 858400 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-011",
+  "source_text": "You sent no word.",
+  "target_text": "你没有预先通知我",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 865377 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-012",
+  "source_text": "Now you can go back to sleep.",
+  "target_text": "现在回去睡觉 好孩子!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1110963 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "now",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-013",
+  "source_text": "What does he make you do? Come on, please tell me.",
+  "target_text": "我之前从未恋爱过",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1128099 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "come",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-014",
+  "source_text": "Still having trouble with the front forks.",
+  "target_text": "车子的前悬挂还有问题吗",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1498510 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-015",
+  "source_text": "Have some.",
+  "target_text": "喝點水吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1640400 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-016",
+  "source_text": "Way out of line.",
+  "target_text": "简直太放肆了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1723872 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-017",
+  "source_text": "WH-WHAT IS GOING ON HERE?",
+  "target_text": "WH -什么是 怎么回事？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2157388 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "going",
+  "human_checked": "no"
  },
  {
-  "id": 35,
-  "source_text": "I told you to keep away from her.",
-  "target_text": "我告诉你离她远点!",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-018",
+  "source_text": "Do not trust.",
+  "target_text": "不可信任",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2464014 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-019",
+  "source_text": "Yes",
+  "target_text": "好呀",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2560871 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-020",
+  "source_text": "CID! Come with us back to the station. Let's go!",
+  "target_text": "来，CID，跟我们回警察局，走",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2708637 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "come",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-021",
+  "source_text": "I shouldn't have said that. Now he's mad.",
+  "target_text": "糟了，我不该这么叫他的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2787218 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "now",
+  "human_checked": "no"
  },
  {
-  "id": 36,
-  "source_text": "\"Herald of Salvation\" of the Employee's Society.",
-  "target_text": "雇工社团的\"救世主的使者\"",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
+  "id": "OS24-022",
+  "source_text": "Eight!",
+  "target_text": "八点的时候",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2833109 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 37,
-  "source_text": "Yeah, yeah, you, me, Eddie, the whole bunch, huh?",
-  "target_text": "对 对 你 我 埃迪 整个乐队?",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-023",
+  "source_text": "He's the entertainment director",
+  "target_text": "他是娱乐总监 果然是拉皮条",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3008658 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-024",
+  "source_text": "I'm scared.",
+  "target_text": "我很怕啊！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3042857 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-025",
+  "source_text": "Aye, John, bring me soon.",
+  "target_text": "是呀 约翰 快点带我回家吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3092667 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-026",
+  "source_text": "No.",
+  "target_text": "不是的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3243457 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-027",
+  "source_text": "What's your middle name, Jerry?",
+  "target_text": "你全名是什么? 杰瑞",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3290067 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "what's",
+  "human_checked": "no"
  },
  {
-  "id": 38,
-  "source_text": "I wanted you alive.",
-  "target_text": "我不想让你死",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-028",
+  "source_text": "Florida and Arizona because of the energy crisis.",
+  "target_text": "佛罗里达和亚利桑那 因为能源危机",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3300884 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 39,
-  "source_text": "Please, Roberto, you must be careful, for everyone's sake.",
-  "target_text": "求你了 罗伯托 你千万要小心 为了大家",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-029",
+  "source_text": "- Then you hold on to it!",
+  "target_text": "I got it! 那你得好好把握 好的 Then you hold on to it!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3441893 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-030",
+  "source_text": "And now you got hostages.",
+  "target_text": "你扣押了人质",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3561265 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "now",
+  "human_checked": "no"
  },
  {
-  "id": 40,
-  "source_text": "BEYOND THAT WHICH IS KNOWN TO MAN.",
-  "target_text": "超乎人类认知",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 41,
-  "source_text": "Because it's what people buy.",
-  "target_text": "人们需要这样!",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-031",
+  "source_text": "Because you have things to do. I mean, you-- you have a life.",
+  "target_text": "你也有事要做 我的意思是 你有自己的生活",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3715702 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 42,
-  "source_text": "Yes, indeed, Mr. Milton.",
-  "target_text": "是的，真的，弥尔顿先生。 是的...",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
+  "id": "OS24-032",
+  "source_text": "The beating I've taken for the last 40 years!",
+  "target_text": "在社会上打滚了40年！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3907345 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "i've",
+  "human_checked": "no"
  },
  {
-  "id": 43,
-  "source_text": "You want me to shut that off?",
-  "target_text": "要我关掉吗？",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-033",
+  "source_text": "- \"The Ran-neechan Protection Squad...\" ...is victorious!",
+  "target_text": "小兰姐姐护卫队",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3997001 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-034",
+  "source_text": "Once you pass the test, none of that's gonna matter.",
+  "target_text": "一旦你们通过考试，那些东西就没用了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4054010 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "that's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-035",
+  "source_text": "But that other lady doesn't want me to touch it.",
+  "target_text": "但是那个女人不让我碰它。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4094086 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "want",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-036",
+  "source_text": "And yet it's not their fault.",
+  "target_text": "然而不是他们的错。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4328484 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-037",
+  "source_text": "(gunshot)",
+  "target_text": "我给！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4402888 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-038",
+  "source_text": "He's here!",
+  "target_text": "他在这里",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4525305 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-039",
+  "source_text": "Uh, December, actually.",
+  "target_text": "哦，十二月",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4541463 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-040",
+  "source_text": "Wanna try?",
+  "target_text": "想要試嗎？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4727429 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 44,
-  "source_text": "Is she all right?",
-  "target_text": "她好吗？",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-041",
+  "source_text": "We're back here.",
+  "target_text": "有人吗? 我们在后面",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4778573 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "back",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-042",
+  "source_text": "Because for a second, I thought...",
+  "target_text": "刚才我还以为...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4910983 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-043",
+  "source_text": "All right. Thank you.",
+  "target_text": "好，谢谢",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4984052 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-044",
+  "source_text": "Martina, can you hear me?",
+  "target_text": "玛蒂娜 你听见了吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5027922 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 45,
-  "source_text": "Disappeared how?",
-  "target_text": "怎么失踪的？ 掉水里了？",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-045",
+  "source_text": "I'm the sheep that got lost, Madre.",
+  "target_text": "我是只迷途的羔羊 太太",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5192915 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "got",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-046",
+  "source_text": "You...",
+  "target_text": "你...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5372787 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-047",
+  "source_text": "Morse had found out the family's secret.",
+  "target_text": "-hand man, just like Pollock. 莫尔斯发现了这个家庭的秘密",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6142100 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-048",
+  "source_text": "Comrade Vishnevsky, let's talk turkey.",
+  "target_text": "维什涅夫斯基同志 把你知道的都说出来吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6529244 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-049",
+  "source_text": "Liz?",
+  "target_text": "莉斯",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6600060 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 46,
-  "source_text": "Now, don't take too much of my money away.",
-  "target_text": "不要把我的钱带走了太多",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 47,
-  "source_text": "Ladies and gentlemen, distinguished guests.",
-  "target_text": "各位尊贵的宾客...",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 48,
-  "source_text": "You were gone about four hours.",
-  "target_text": "你们去了四个小时",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-050",
+  "source_text": "- She's like a panther. You know, just her body...",
+  "target_text": "她像一只豹 她的身体...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6670343 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "like",
+  "human_checked": "no"
  },
  {
-  "id": 49,
-  "source_text": "Having trouble?",
-  "target_text": "碰到麻烦了？",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-051",
+  "source_text": "Understand?",
+  "target_text": "懂吗?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6705437 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 50,
-  "source_text": "You must take anyone who pays",
-  "target_text": "你必须应付任何付了钱的人",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-052",
+  "source_text": "I would like a mind-meld.",
+  "target_text": "我不想和你呆在一起",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6795825 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "like",
+  "human_checked": "no"
  },
  {
-  "id": 51,
-  "source_text": "I'd like to stay here and help out.",
-  "target_text": "我想留在这帮帮忙",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Statement",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 52,
-  "source_text": "Are you afraid too, friend?",
-  "target_text": "你也害怕了吗 朋友",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-053",
+  "source_text": "Blood?",
+  "target_text": "血?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7053970 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 53,
-  "source_text": "I'm a sinful man.",
-  "target_text": "伊芙，我是个罪孽深重的人",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-054",
+  "source_text": "Brinna!",
+  "target_text": "布瑞娜！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7480212 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-055",
+  "source_text": "Yes, no problem. Sign.",
+  "target_text": "跟我进去吧！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7492187 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 54,
-  "source_text": "The turtles come to the beach pairs.",
-  "target_text": "每次各聚集两只",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
+  "id": "OS24-056",
+  "source_text": "Come on.",
+  "target_text": "坚持住",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7533805 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "come",
+  "human_checked": "no"
  },
  {
-  "id": 55,
-  "source_text": "Ah, madame Dulaine.",
-  "target_text": "啊，Dulaine夫人",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
+  "id": "OS24-057",
+  "source_text": "Welcome, Mister...",
+  "target_text": "欢迎，那个",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7681525 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 56,
-  "source_text": "Only rich people.",
-  "target_text": "只有富人。 Only rich people.",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
- },
- {
-  "id": 57,
-  "source_text": "Beat it. I don't want you.",
-  "target_text": "我不想要你",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-058",
+  "source_text": "Uh,when you're free,come find me.",
+  "target_text": "呃 等你有空了來見我",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8050852 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "you're",
+  "human_checked": "no"
  },
  {
-  "id": 58,
-  "source_text": "This is your idea?",
-  "target_text": "是你的主意",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-059",
+  "source_text": "He just seems more mature for his age.",
+  "target_text": "总之，他虽年轻却比你成熟",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8316051 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-060",
+  "source_text": "You selfish fucking bitch!",
+  "target_text": "你个自私的臭婊子!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8422380 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-061",
+  "source_text": "All right, Mr. Kwon, here's your suitcase and your watch.",
+  "target_text": "好的，权先生 这是你的行李和手表",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8439380 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-062",
+  "source_text": "Hold on a second.",
+  "target_text": "等下",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8678634 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-063",
+  "source_text": "Oh, just noticing that you always seem to enjoy everything",
+  "target_text": "佳无论做什么都很快乐的样子",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8684933 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-064",
+  "source_text": "Try to picture what you saw.",
+  "target_text": "把你看到的描绘出来",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8727861 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-065",
+  "source_text": "We taught over Bartram together.",
+  "target_text": "我们在布拉德市教过书",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8941120 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-066",
+  "source_text": "- L didn't ask him to do it.",
+  "target_text": "我的上帝啊 杰夫 -我并没有要他这么做啊",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9010588 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-067",
+  "source_text": "Ann Patterson from across the street.",
+  "target_text": "是我们对面的安。 派德森",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9027349 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-068",
+  "source_text": "For now, then, we'll just keep driving forward until Haewon Group is ultimately bankrupt.",
+  "target_text": "首先 还是得拖到海源集团 最终宣告破产那天为止",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9638183 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "now",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-069",
+  "source_text": "\"Do not interfere in human affairs.\"",
+  "target_text": "不能直接插手人间的事",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9650320 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-070",
+  "source_text": "- Hi, honey.",
+  "target_text": "- 嗨，亲爱的。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9733106 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-071",
+  "source_text": "Roger that.",
+  "target_text": "- 明白",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9801984 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-072",
+  "source_text": "No, Armando. I am here to save this family.",
+  "target_text": "你错了，阿曼多，我在挽救这个家族。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9877558 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-073",
+  "source_text": "For Rumiko-san, Mei-san's success is her own success.",
+  "target_text": "对留美子女士而言 芽衣的成功就是自己的成功",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10322259 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-074",
+  "source_text": "You told me to make an honest living.",
+  "target_text": "你要我找个正当工作",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10368277 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "make",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-075",
+  "source_text": "I can. I can.",
+  "target_text": "我可以 我可以",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10517393 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-076",
+  "source_text": "Little bastards think they can drop their folks off at a home and visit twice a year, maybe.",
+  "target_text": "那些小混蛋觉得能把自家老人扔进养老院 也许一年来看个两次",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10543915 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-077",
+  "source_text": "I couldn't get him out of my head.",
+  "target_text": "我就是无法忘怀",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10625250 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "get",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-078",
+  "source_text": "Simple act of jealous rage, I suppose.",
+  "target_text": "简单的行为嫉妒的愤怒， 我想。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10997803 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-079",
+  "source_text": "I'll call you all back.",
+  "target_text": "我会再打给你们 多谢 {\\3cH202020}I'll call you all back. Thank you.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11421747 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "back",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-080",
+  "source_text": "\"indemnification: Injury or Death\"",
+  "target_text": "\"赛事伤亡责任同意书\"",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11643987 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-081",
+  "source_text": "I wiped the disk.",
+  "target_text": "我清理了硬盘",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11665462 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-082",
+  "source_text": "Lee Hui Kyeong is the President's son.",
+  "target_text": "這說明李輝京是會長的兒子",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11858231 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-083",
+  "source_text": "- It won't cut into their share.",
+  "target_text": "- 它不会切的份额。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11966721 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-084",
+  "source_text": "Get out of here.",
+  "target_text": "离开这里。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11987343 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "get",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-085",
+  "source_text": "Ask them where they got the paintings.",
+  "target_text": "问问他们哪来的画",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12077444 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "got",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-086",
+  "source_text": "but no one has ever made me feel so cheap.",
+  "target_text": "但从没人让我感觉如此下贱",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12198454 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "one",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-087",
+  "source_text": "I'm going to have to call you back.",
+  "target_text": "一会儿给你回电话 I'm going to have to call you back.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12376372 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "back",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-088",
+  "source_text": "No!",
+  "target_text": "不！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12419461 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-089",
+  "source_text": "Your Highness!",
+  "target_text": "殿下！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12616675 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-090",
+  "source_text": "Nice jeans, Boyle.",
+  "target_text": "博伊尔 牛仔裤挺好看呢",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12628026 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-091",
+  "source_text": "It was an angel.",
+  "target_text": "那是一个天使",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13064351 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-092",
+  "source_text": "Taxi boy, are you a Triad?",
+  "target_text": "开出租的，黑社会啊你",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13328405 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Question",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 59,
-  "source_text": "Say, buddy, will you stake a fellow...",
-  "target_text": "嘿 伙计 能赏...",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
+  "id": "OS24-093",
+  "source_text": "What do you want to do?",
+  "target_text": "你想怎么来 What do you want to do? 我想干你 I want to fuck you.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13359644 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "want",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-094",
+  "source_text": "- This ain't Woodstock, - hippie chick.",
+  "target_text": "這不是胡士托音樂節，嬉皮士女",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13380613 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
   "category": "Statement",
-  "human_checked": "no",
-  "year": null
+  "key_term": "(other)",
+  "human_checked": "no"
  },
  {
-  "id": 60,
-  "source_text": "Take care of the others, please.",
-  "target_text": "―没亨照顾好其他人",
-  "source": "OpenSubtitles v2024 (en-zh_CN), via ~/projects/OpenSubtitles (sample)",
-  "category": "Short phrase / command",
-  "human_checked": "no",
-  "year": null
+  "id": "OS24-095",
+  "source_text": "So...",
+  "target_text": "所以",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13487139 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-096",
+  "source_text": "Lovely, be right back.",
+  "target_text": "帅哥美女们 我马上回来 Lovely, be right back.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13491577 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-097",
+  "source_text": "Thank you.",
+  "target_text": "谢谢 谢谢 Thank you.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13801302 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "thank",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-098",
+  "source_text": "Thank you, Mr. President.",
+  "target_text": "谢谢 总统先生",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14018335 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "thank",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-099",
+  "source_text": "I've a sore throat, so it hurts.",
+  "target_text": "我嗓子疼，吃不下",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14091726 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "i've",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-100",
+  "source_text": "Well, that's the same reason I'm talking to you.",
+  "target_text": "同样这也是我和你交谈的原因",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14113496 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "that's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-101",
+  "source_text": "Sorry.",
+  "target_text": "‎对不起",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14167269 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-102",
+  "source_text": "Great, then we can do business.",
+  "target_text": "太好了，那我们可以办正事了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14275509 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-103",
+  "source_text": "You'll be separated for approximately five hours.",
+  "target_text": "你们会分开大概五小时 You will be separated of approximately five hours.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14408593 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-104",
+  "source_text": "Hebrew Youth Swimming Pool",
+  "target_text": "（希伯来青年游泳池）",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14531312 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-105",
+  "source_text": "- Thanks.",
+  "target_text": "-谢谢",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14570324 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-106",
+  "source_text": "A chance here.",
+  "target_text": "好机会",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14711976 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-107",
+  "source_text": "-Sure.",
+  "target_text": "-可以",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14800693 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-108",
+  "source_text": "Yeah.",
+  "target_text": "‎對",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15079188 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-109",
+  "source_text": "Uh, you're in the MRI.",
+  "target_text": "你在核磁共振室里 Uh, you're in the MRI.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15087913 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "you're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-110",
+  "source_text": "I'll ask you again...",
+  "target_text": "‎我再问你一次",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15140778 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "i'll",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-111",
+  "source_text": "No. I'm in the right.",
+  "target_text": "我这样做是正义的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15197497 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-112",
+  "source_text": "And it's like this whole other part of your trip you didn't even foresee.",
+  "target_text": "而且它就像这整个其他的部分 你的旅行没有甚至不能预见.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15327542 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-113",
+  "source_text": "Take her away.",
+  "target_text": "把她带出去",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15349402 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-114",
+  "source_text": "Teacher?",
+  "target_text": "对老师的尊敬 ?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15356373 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-115",
+  "source_text": "Would you mind taking a seat, please, darling?",
+  "target_text": "你能进来坐下吗？ 亲爱的，麻烦你，谢谢",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15375562 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "please",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-116",
+  "source_text": "It's fine.",
+  "target_text": "没事 现在有更大的麻烦 It's fine.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15471027 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-117",
+  "source_text": "-Chief--",
+  "target_text": "-所长...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15658381 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-118",
+  "source_text": "Excuse me. Can I help you?",
+  "target_text": "抱歉 你有什么事吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15750653 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-119",
+  "source_text": "-Who's a Greek god?",
+  "target_text": "什么雕像？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15771937 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-120",
+  "source_text": "It can be anyone?",
+  "target_text": "任何一个人都行？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15870694 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-121",
+  "source_text": "Imperial Edict.",
+  "target_text": "宣旨",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15972730 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-122",
+  "source_text": "You're Tachibana, you should know everything!",
+  "target_text": "‎你是橘 你应该什么都知道才对！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16068980 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-123",
+  "source_text": "You are serious.",
+  "target_text": "‪你认真的吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16077481 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-124",
+  "source_text": "Thanks.",
+  "target_text": "‪谢了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16078948 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-125",
+  "source_text": "Don't worry. I'll write it. But I need to interview more people.",
+  "target_text": "我会写的 不过我还需要补充采访",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16177032 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "don't",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-126",
+  "source_text": "No, no, no, no!",
+  "target_text": "‎不...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16292997 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-127",
+  "source_text": "When did you get here?",
+  "target_text": "‎你是什么时候来的？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16425483 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "get",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-128",
+  "source_text": "Hi, Ruben's grandma. What's up?",
+  "target_text": "嗨 鲁本的外婆 你好吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16451293 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "what's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-129",
+  "source_text": "Cool.",
+  "target_text": "‎好极了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16472019 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-130",
+  "source_text": "Becky's from Minnesota.",
+  "target_text": "貝琪是明尼蘇達人",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16476257 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-131",
+  "source_text": "Sunscreen, please.",
+  "target_text": "防晒霜",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16508409 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "please",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-132",
+  "source_text": "Yeah. When was the last time you spoke to Mike Banning?",
+  "target_text": "是的 你最后一次与麦克·班宁通话是什么时候？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16681826 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-133",
+  "source_text": "Though we cannot be there to guide her essence home... we will sing her memory across the wind.",
+  "target_text": "‎虽然我们无法在她身边 ‎引导她的菁华回归家园 ‎我们会在风中歌颂你对她的记忆",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16724226 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "home",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-134",
+  "source_text": "No, please!",
+  "target_text": "‎不要啊！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16725378 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "please",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-135",
+  "source_text": "In terms of storage space, this is very nice.",
+  "target_text": "‎就存储空间来说 这柜子非常好",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16840957 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-136",
+  "source_text": "Do you think about fucking other women?",
+  "target_text": "你想过和其他女人滚床单吗 Do you think about fucking other women?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16861631 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-137",
+  "source_text": "Business owner and Triad alike pray to Guan Gong.",
+  "target_text": "‎生意人和三合会一样 ‎都拜关公",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16990581 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-138",
+  "source_text": "Do you know how they make those?",
+  "target_text": "‎你知道这是怎么做的吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17035649 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-139",
+  "source_text": "- Demi.",
+  "target_text": "‎ -黛咪 ‎",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17125775 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-140",
+  "source_text": "Tell me again, where was the backpack found?",
+  "target_text": "请再说一次 后背包在哪里",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17155267 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-141",
+  "source_text": "That's what it said in the paperwork.",
+  "target_text": "‎文件上就是这么写的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17173921 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "that's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-142",
+  "source_text": "Why were you asking about Jennifer Williams?",
+  "target_text": "‎你干嘛打听珍妮弗·威廉斯的事？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17211727 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-143",
+  "source_text": "I'm going to destroy this insane Imperial House.",
+  "target_text": "我要摧毁这个万恶的皇室",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17233139 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "going",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-144",
+  "source_text": "Don't you think?",
+  "target_text": "lrm; 你不觉得吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17286349 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-145",
+  "source_text": "We had a blast.",
+  "target_text": "‪我们心里真是痛快啊",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17380768 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-146",
+  "source_text": "This kid named Rollo used to chase me home from school every damn day.",
+  "target_text": "有一个叫罗洛的小孩 以前天天都要从学校一路追我回家",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17449343 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "home",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-147",
+  "source_text": "'Cause I can smell something really strange.",
+  "target_text": "‪因为我闻到了很奇怪的气味",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17545237 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-148",
+  "source_text": "I'll be there soon!",
+  "target_text": "我马上过去",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17556234 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "i'll",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-149",
+  "source_text": "How do you know about that?",
+  "target_text": "‎你是怎么知道的？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17604424 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-150",
+  "source_text": "Please find my husband.",
+  "target_text": "‎拜托你们找找他",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18054457 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "please",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-151",
+  "source_text": "Great, teach the kid. No need to show me anything.",
+  "target_text": "好极了 让你教她不教我",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18314131 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "need",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-152",
+  "source_text": "Michael Jordan on a pull-up.",
+  "target_text": "迈克尔乔丹停下跳投 好的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18335773 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-153",
+  "source_text": "-Yeah. We all were.",
+  "target_text": "-是 我们都错了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18340535 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-154",
+  "source_text": "But my mother's from Korea. Another long, boring story.",
+  "target_text": "‎但我妈是韩国人 这也是说来话长",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18381503 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-155",
+  "source_text": "Promise me.",
+  "target_text": "‎答应我",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18392813 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-156",
+  "source_text": "- I've heard wonderful things about you.",
+  "target_text": "‎ -久仰大名 ‎",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18604223 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "i've",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-157",
+  "source_text": "Bloody expensive lesson.",
+  "target_text": "-这教训真贵啊",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18675022 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-158",
+  "source_text": "- What's her name?",
+  "target_text": "-她叫什么",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18704937 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "what's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-159",
+  "source_text": "May I?",
+  "target_text": "麻烦让一下",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18717938 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-160",
+  "source_text": "Russian River.",
+  "target_text": "‎俄罗斯河",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18783639 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-161",
+  "source_text": "I'm not here as a president, but as a friend.",
+  "target_text": "‪我不是什么银行总裁 ‪我是以朋友的身份站在这里的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19212222 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-162",
+  "source_text": "Hey. You can't go any further.",
+  "target_text": "‎你不能再靠近了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19269760 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "hey",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-163",
+  "source_text": "You're fucked!",
+  "target_text": "你完蛋了！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19311121 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "you're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-164",
+  "source_text": "Number three.",
+  "target_text": "第三",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19375113 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-165",
+  "source_text": "She was talking for John.",
+  "target_text": "当时是她在代约翰说话",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19483046 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-166",
+  "source_text": "How about taking a second wife?",
+  "target_text": "你有想过娶第二个妻子吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19564430 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-167",
+  "source_text": "Is it half of all the world's roundabouts are in a country that doesn't know what it is?",
+  "target_text": "世界上所有环岛的一半 存在于一个不知道它是什么的国家？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19653429 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-168",
+  "source_text": "That's too big. Everyone will see what I'm up to.",
+  "target_text": "‪这个太大了 任谁看了都会知道",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19663877 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "that's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-169",
+  "source_text": "She's like a bratty princess.",
+  "target_text": "那丫头超没教养 是个无礼的公主",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19680374 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-170",
+  "source_text": "I watched Jack Benny. He plays it for the studio audience.",
+  "target_text": "我看过杰克本尼 他为演播室的观众表演",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19727809 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-171",
+  "source_text": "Getting closer isn't gonna change the view.",
+  "target_text": "再靠近也改变不了景观 Getting closer isn't gonna change the view.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20041164 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-172",
+  "source_text": "- To the Bretwalda!",
+  "target_text": "‪ -为不列颠共主干杯！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20070128 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-173",
+  "source_text": "You can't have the virus. We're in the bubble.",
+  "target_text": "‪你不可能感染病毒 我们都在泡泡里",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20138204 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "we're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-174",
+  "source_text": "How?",
+  "target_text": "说吧？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20167243 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-175",
+  "source_text": "- Clear.",
+  "target_text": "-可以",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20609276 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-176",
+  "source_text": "- Impound on King Street.",
+  "target_text": "-扣押在国王街",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20839808 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-177",
+  "source_text": "EUN GYEHOON",
+  "target_text": "殷繼勳）",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20853547 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-178",
+  "source_text": "Malekith is gonna destroy everything.",
+  "target_text": "马勒基斯会摧毁一切",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20881249 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-179",
+  "source_text": "I think we should take our leave.",
+  "target_text": "‎我们就先退下了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21027573 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-180",
+  "source_text": "You are nothing without me.",
+  "target_text": "没有我 你什么都不是",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21320771 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-181",
+  "source_text": "He's possessed by the roundworm monster.",
+  "target_text": "他被魔回虫附身了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21398248 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-182",
+  "source_text": "I'm giving him a foot massage.",
+  "target_text": "-公主 我在给他做脚底按摩 请问这力道还满意吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21685305 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-183",
+  "source_text": "What Cleopatra wants is to restore the glory of the Ptolemaic Kingdom.",
+  "target_text": "克丽奥佩脱拉想要的 就是恢复托勒密王国的荣耀",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21705122 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-184",
+  "source_text": "[Richard] Yeah!",
+  "target_text": "是的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21716368 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-185",
+  "source_text": "Hold on.",
+  "target_text": "等等",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21761668 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-186",
+  "source_text": "Angus is the only one that deserves to be brought home.",
+  "target_text": "安格斯是唯一值得被带回家的人",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21999719 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "one",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-187",
+  "source_text": "So, why'd you slip in here?",
+  "target_text": "那么 吉尔小姐 你为什么要混进来啊",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 22276705 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-188",
+  "source_text": "This is, this is my, uh, partner, Reggie Douglas.",
+  "target_text": "这是我的搭档 雷吉道格拉斯",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 22299649 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-189",
+  "source_text": "And most of these entries look like a matter for the Intelligence unit.",
+  "target_text": "这些进项大部分看起来是情报科负责的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 164613 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-190",
+  "source_text": "Nothing.",
+  "target_text": "没有，什么也没有",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 465418 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-191",
+  "source_text": "They say you're a smart operator.",
+  "target_text": "他们说你是个聪明人",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 517745 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "you're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-192",
+  "source_text": "He'll come.",
+  "target_text": "他会来的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 680152 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "come",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-193",
+  "source_text": "No, I never heard that",
+  "target_text": "不 我从未听说过",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 686854 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-194",
+  "source_text": "-Where are they now? -Careful.",
+  "target_text": "他们现在在哪里？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 771004 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "now",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-195",
+  "source_text": "Nice day.",
+  "target_text": "天气不错",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 794010 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-196",
+  "source_text": "- Never.",
+  "target_text": "- 从不",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 912170 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-197",
+  "source_text": "I think I can deliver him.",
+  "target_text": "我想这应该足够了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 966173 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-198",
+  "source_text": "How nice of you to come. Thank you.",
+  "target_text": "你能来真好 多谢",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1252209 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "come",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-199",
+  "source_text": "Automation.",
+  "target_text": "自动化",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1275433 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-200",
+  "source_text": "Not over my dead body!",
+  "target_text": "我死也不讓他進來!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1517889 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-201",
+  "source_text": "You treat me like a pup, you know that?",
+  "target_text": "你老是把我当成一只小狗",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1616903 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-202",
+  "source_text": "All right.",
+  "target_text": "好的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1883919 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-203",
+  "source_text": "Sit down.",
+  "target_text": "先给我坐下来",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1923059 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-204",
+  "source_text": "You look as sweet as a little pie.",
+  "target_text": "你像小馅饼一样甜美",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1933766 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "look",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-205",
+  "source_text": "We'll go to supper in the morning.",
+  "target_text": "我们将在早春吃晚餐.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2027564 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-206",
+  "source_text": "Let's continue the viewing.",
+  "target_text": "我们继续看吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2109872 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-207",
+  "source_text": "Wine for everybody and beer for him...",
+  "target_text": "给他啤酒",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2144633 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-208",
+  "source_text": "A car in perfect condition goes out of control.",
+  "target_text": "一部状况良好的车子失去控制",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2332318 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-209",
+  "source_text": "You and the 20th Maine Regiment are instructed to lead.",
+  "target_text": "你们和缅因州第20连带头进发",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2639352 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-210",
+  "source_text": "Freeze!",
+  "target_text": "别跑",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3124576 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-211",
+  "source_text": "Mommy, no!",
+  "target_text": "妈咪，不要！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3149760 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-212",
+  "source_text": "I understand we have Andy live.",
+  "target_text": "安迪正在现场",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3173110 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-213",
+  "source_text": "AND RAN OUT OF THE STORE. OH, MY GOD, CHANDLER.",
+  "target_text": "丢下那包大麦 跑出超市 ...threw the bag of barley at her and ran out of the store.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3235679 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-214",
+  "source_text": "YOU KNOW, HE COULD HAVE GOT ME A V.C.R.",
+  "target_text": "但他没有 他却给我弄了个 〝女性终结者〞 But no!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3236323 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-215",
+  "source_text": "Do you have any plans of rehiring any of these people... now that you've made $6 billion in the last 3 years?",
+  "target_text": "既然你们最近三年赚了60亿 有没有考虑过重新雇佣被裁的员工？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3404290 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "now",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-216",
+  "source_text": "It was like my eyes just completely opened up, kind of like like St Paul on the road to De... wherever.",
+  "target_text": "如果我的眼睛被打开。 作为圣保罗的道路上做... 大马士革。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3557969 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-217",
+  "source_text": "We don't know that yet.",
+  "target_text": "我们还不知道.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3567509 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-218",
+  "source_text": "- Let's go",
+  "target_text": "快走 不要呆在这附近",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3680704 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-219",
+  "source_text": "Shoot him Gordon!",
+  "target_text": "快开... 高登",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3778149 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-220",
+  "source_text": "BUT THIS IS MY LIFE NOW.",
+  "target_text": "而是我生命中的一部分了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3968918 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "now",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-221",
+  "source_text": "You willing to lay their lives on the line?",
+  "target_text": "你愿不愿意叫他们冒险",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4007750 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-222",
+  "source_text": "The woman as well breathes no longer. Maybe her heart exploded...",
+  "target_text": "这个女人再也不能呼吸了 可能她的心脏已经胀裂了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4030076 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "well",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-223",
+  "source_text": "Dad!",
+  "target_text": "爹",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4072597 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-224",
+  "source_text": "Well...what's wrong?",
+  "target_text": "嗯... ... 有什么不对？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4104219 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "what's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-225",
+  "source_text": "I mean, can you ever really trust another human being, Greg?",
+  "target_text": "你真的能信任另一个人吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4116633 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-226",
+  "source_text": "And, uh...",
+  "target_text": "而且 呃...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4217187 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-227",
+  "source_text": "You... you have no... business in the Quoyle house.",
+  "target_text": "你... 你没有... 你和科伊尔家的房子没关系",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4237852 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-228",
+  "source_text": "Uh...",
+  "target_text": "你在干吗?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4333212 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-229",
+  "source_text": "Are you okay?",
+  "target_text": "你没事吧？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4449928 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-230",
+  "source_text": "I took that picture.",
+  "target_text": "我拍了那张照片",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4621176 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-231",
+  "source_text": "And he'll do to her what he did to me.",
+  "target_text": "他会对她做... 他对我做的事情",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5163712 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-232",
+  "source_text": "You know that pond you often go to?",
+  "target_text": "你常去玩的那个池塘",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5381819 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-233",
+  "source_text": "I'll have to leave, for Anne's sake.",
+  "target_text": "看在安的份上 我得离开这儿",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5415380 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "i'll",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-234",
+  "source_text": "Every trace of my humanity was discarded. I discovered, when moving through eternity, it helps to travel lightly.",
+  "target_text": "人性中的每一抹痕迹都被丢弃 在穿越来生的时候 我发现",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5439984 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-235",
+  "source_text": "You think it's a hole in a can?",
+  "target_text": "你以为这只是个罐头上的洞?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5728870 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-236",
+  "source_text": "Even worse:",
+  "target_text": "嚣张的很",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5747039 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-237",
+  "source_text": "Spoke to the other of forming a bank, and of her in that connection.",
+  "target_text": "和那个说要成立银行 由她牵头",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5817128 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-238",
+  "source_text": "Well, an original, illuminated, 6th century transcript... of the Pentateuchal books of the Bible is bound to generate a lot of buzz.",
+  "target_text": "公元600年摩西五经的原版手抄本 这可是难得的机会啊 肯定要引起轰动的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5861790 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "well",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-239",
+  "source_text": "You are safe here with me.",
+  "target_text": "你在我身边很安全",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5937869 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-240",
+  "source_text": "Will you get married to a vest?",
+  "target_text": "你要和背心结婚吗",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6122056 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "get",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-241",
+  "source_text": "C2, C3. No.",
+  "target_text": "-第二 第三颈椎",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6224186 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-242",
+  "source_text": "- Absolutely.",
+  "target_text": "- 那是当然",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6241300 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-243",
+  "source_text": "The clots are in his brain. The source of the clots may not be.",
+  "target_text": "血块是在他的大脑里面 血块的成因可能不是",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6281349 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-244",
+  "source_text": "\"we would have thought something was wrong with it.",
+  "target_text": "\"我们就会认为其中出了问题\"",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6325994 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-245",
+  "source_text": "You inspire me.",
+  "target_text": "我要说了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6559688 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-246",
+  "source_text": "How does he cast a spell over you, enchant you, beguile you?",
+  "target_text": "他是怎麽蛊惑你？ 让你着迷？ 欺骗你？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6625266 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-247",
+  "source_text": "I don't know.",
+  "target_text": "我不知道",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6945286 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-248",
+  "source_text": "It's just that the minute I wear it to school, everyone's going to get in a flap.",
+  "target_text": "我怕戴去学校，同事看了会起哄",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7191755 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "get",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-249",
+  "source_text": "Hey, relax. Three more seconds and you can go.",
+  "target_text": "嘿 放轻松 还有三秒钟你就可以走了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7195247 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "hey",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-250",
+  "source_text": "Take care.",
+  "target_text": "顺便洗个澡 保重",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7235552 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-251",
+  "source_text": "Someone went after Darby last night.",
+  "target_text": "有人昨晚想干掉Darby.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7265959 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "last",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-252",
+  "source_text": "Accounts have to be balanced records kept.",
+  "target_text": "我们的账一直都做得很漂亮",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7339144 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-253",
+  "source_text": "I think she said something about a toll bridge.",
+  "target_text": "我想她在说一座收费桥",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7762309 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-254",
+  "source_text": "Who am I kidding? it's a face, right?",
+  "target_text": "她將會痛不欲生",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7829139 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-255",
+  "source_text": "It's red and green and looks like a Christmas present.",
+  "target_text": "红色绿色看起来像个圣诞礼物",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8029777 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-256",
+  "source_text": "And we must make sure that no one ever finds it.",
+  "target_text": "我们必须确保不能让人发现",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8441543 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "one",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-257",
+  "source_text": "Bye.",
+  "target_text": "再见",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8594099 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-258",
+  "source_text": "I gave out samples and everyone said it was the bomb.",
+  "target_text": "不可能 我有散出去小样 大家都说就是原来那个劲儿",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8624900 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "said",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-259",
+  "source_text": "Mister.",
+  "target_text": "伯伯",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8752953 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-260",
+  "source_text": "Yes, you do!",
+  "target_text": "乖",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8839704 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-261",
+  "source_text": "I wonder what kind of life he led for everyone to turn their back on him.",
+  "target_text": "他是怎么活的？ 怎么所有人都不管他？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8848731 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "back",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-262",
+  "source_text": "- Yeah? - They just sat down.",
+  "target_text": "怎样 他们正坐下",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8995967 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-263",
+  "source_text": "Are you interested?",
+  "target_text": "- 有兴趣的是你吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9153881 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-264",
+  "source_text": "May I say something?",
+  "target_text": "能听我再说几句吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9188300 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-265",
+  "source_text": "Look, see how my butt's kind of gone, dude? Yeah.",
+  "target_text": "你看我怎么一直在臀部。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9287400 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-266",
+  "source_text": "He was helping me become adjusted to Chicago. It's a sad day.",
+  "target_text": "他帮助我调整以适应芝加哥",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9411088 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-267",
+  "source_text": "Why is SHE here? Excellent question.",
+  "target_text": "- 她为什么在这里?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9443256 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-268",
+  "source_text": "HAEMI-DO INVESTMENT CONTRACT",
+  "target_text": "（海美岛合作投资契约书）",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9652613 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-269",
+  "source_text": "In the government yard in Trench Town",
+  "target_text": "在政府码中壕镇 （发布于政府机关，在镇海沟）",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9715877 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-270",
+  "source_text": "Get away!",
+  "target_text": "开枪！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9765553 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "get",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-271",
+  "source_text": "- TRUST ME.",
+  "target_text": "- 相信我。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9793915 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-272",
+  "source_text": "It's your last one.",
+  "target_text": "它是最后一根。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9888496 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "one",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-273",
+  "source_text": "What was I thinking?",
+  "target_text": "我在想什么呢?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9963721 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-274",
+  "source_text": "I think theirs was, like, a \"no sex\" breather.",
+  "target_text": "我觉得 他们那应该叫\"无性\"缓和",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10141531 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-275",
+  "source_text": "Everyone's beautiful on the inside.",
+  "target_text": "每个人的灵魂深处都是很美的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10189533 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-276",
+  "source_text": "And you do?",
+  "target_text": "那你有?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10231058 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-277",
+  "source_text": "You saw him die?",
+  "target_text": "你看到了?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10521023 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-278",
+  "source_text": "Hey, Joe. Your fiance called about an hour ago.",
+  "target_text": "乔 你未婚妻一小时前来过电话",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10556285 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "hey",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-279",
+  "source_text": "The next time we hear of Division in a negative light will be the last time we hear of Division.",
+  "target_text": "如果我们再听到\"组织\"的任何负面消息 那么\"组织\"将不复存在",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10568789 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "last",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-280",
+  "source_text": "- Okay...",
+  "target_text": "好",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10605339 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-281",
+  "source_text": "Most considerate. Thank you.",
+  "target_text": "真体贴，谢谢你",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10699922 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "thank",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-282",
+  "source_text": "Who wants music?",
+  "target_text": "谁想要的音乐？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10931674 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-283",
+  "source_text": "A little old lady.",
+  "target_text": "一个小老太太。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10940180 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-284",
+  "source_text": "I took our busniess came here the busniess I'm proud of",
+  "target_text": "我带着我们的事业来美国 我引以为豪的事业",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11087799 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-285",
+  "source_text": "Fine.",
+  "target_text": "好吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11091353 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-286",
+  "source_text": "And then if you've done the thing you have to drink.",
+  "target_text": "然后，如果你这样做 你有喝的东西。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11288344 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-287",
+  "source_text": "No, Carl's not that kind of guy.",
+  "target_text": "不 Carl不是那種男生",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11491851 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-288",
+  "source_text": "Probable father (Robert Nolan)",
+  "target_text": "可能的生父 (罗伯特·诺兰)",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11544939 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-289",
+  "source_text": "You want some?",
+  "target_text": "- 你要吗?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11754347 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "want",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-290",
+  "source_text": "Who are you?",
+  "target_text": "而是企业之间的协议",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11801152 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-291",
+  "source_text": "Are you abstaining?",
+  "target_text": "你弃权吗",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11809488 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-292",
+  "source_text": "- Three.",
+  "target_text": "- - 三.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11879633 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-293",
+  "source_text": "Why? Are you trying to pick me up?",
+  "target_text": "难道你想追求我？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11944420 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-294",
+  "source_text": "I've got seven in ICU.",
+  "target_text": "重症病房里有七名",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11956046 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "i've",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-295",
+  "source_text": "And where were you two nights ago? Home.",
+  "target_text": "- 你两天前的晚上在哪里",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12554286 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "home",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-296",
+  "source_text": "I just want to get out of here.",
+  "target_text": "我只是想離開這",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12656134 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "get",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-297",
+  "source_text": "I told every cop here",
+  "target_text": "我跟这里的每个警察说了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12857567 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-298",
+  "source_text": "None of the four were registered organ donors, but all four were missing vital organs.",
+  "target_text": "没有一个登记过器官捐赠 但是四个都有重要脏器遗失 你怎么解释?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12888456 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-299",
+  "source_text": "Just one more drink.",
+  "target_text": "再来一杯啦",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13054262 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "one",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-300",
+  "source_text": "Smashing party, Your Majesty.",
+  "target_text": "好震撼的派對，陛下",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13085271 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-301",
+  "source_text": "He did use the \"C\" word, yeah.",
+  "target_text": "他确实提到了\"交代\"",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13393489 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-302",
+  "source_text": "[I'll buy you a nicer teddy bear. This one is no good.]",
+  "target_text": "[我会再买更好的给你 这个不好]",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13562385 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "one",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-303",
+  "source_text": "Prince Yu, xiao-Jin even Consort Hui",
+  "target_text": "誉王 小金",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13690291 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-304",
+  "source_text": "Of course.",
+  "target_text": "好的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13812425 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-305",
+  "source_text": "I am sorry.",
+  "target_text": "我很抱歉...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13894447 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-306",
+  "source_text": "That's the big secret.",
+  "target_text": "这是一个大秘密",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13909261 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "that's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-307",
+  "source_text": "It creates this energy.",
+  "target_text": "于是便迸发出了这样的能量",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13935092 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-308",
+  "source_text": "Where's Morgan?",
+  "target_text": "摩根在哪里？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13949833 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-309",
+  "source_text": "Thank you, darling.",
+  "target_text": "谢谢 亲爱的 Thank you, darling.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13980002 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "thank",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-310",
+  "source_text": "Let's go to the left!",
+  "target_text": "我们向左边走吧...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14125928 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-311",
+  "source_text": "I don't think they've woken up.",
+  "target_text": "-我想他们还没醒",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14252919 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-312",
+  "source_text": "I only know that Die Che calls me Chi Mo.",
+  "target_text": "我只知道 蝶澈她叫我迟墨",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14272522 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-313",
+  "source_text": "Okay, fine.",
+  "target_text": "我知道了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14298348 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-314",
+  "source_text": "♪ Hey, hey, hey, yeah ♪",
+  "target_text": "嘿 嘿 嘿 耶 Hey, hey, hey, yeah",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14549456 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-315",
+  "source_text": "I stay awake at night missing you and counting stars. I cannot stop my tears of sorrow.",
+  "target_text": "我无停法止忧伤的泪水",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14631507 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-316",
+  "source_text": "He quickly...",
+  "target_text": "他很快...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14654609 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-317",
+  "source_text": "Hey, I'm going to fall.",
+  "target_text": "我要掉下去了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 14917727 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "hey",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-318",
+  "source_text": "Just a joke.",
+  "target_text": "开玩笑而已 Just a joke.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15104205 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-319",
+  "source_text": "- What about women who don't have children? - Yeah.",
+  "target_text": "沒有孩子的女人怎麼辦 是啊",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15160593 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-320",
+  "source_text": "You worked with Nick Connor in Karachi.",
+  "target_text": "你在喀拉蚩跟尼克柯纳共事过",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15237526 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-321",
+  "source_text": "Back aches pretty bad right down to the spot where I can't feel anything at all.",
+  "target_text": "我可以搞定的 很高兴你回来了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15302322 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-322",
+  "source_text": "Turkish police are always on duty.",
+  "target_text": "lrm; 土耳其警員時時都在工作 lrm;",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15395353 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-323",
+  "source_text": "I apologize. I need to leave a bit early today.",
+  "target_text": "抱歉 我今天得早点走",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15524624 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "need",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-324",
+  "source_text": "I think that works more.",
+  "target_text": "我觉得这样更好",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15566413 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-325",
+  "source_text": "and your colleagues in.",
+  "target_text": "多用点心吧 臭小子",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15655922 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-326",
+  "source_text": "Dad, you weren't supposed to die.",
+  "target_text": "老爸 你怎么会死呢 Dad, you weren't supposed to die.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 15693421 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-327",
+  "source_text": "Phraya Decho will come for an official visit at the market around the T junction.",
+  "target_text": "德川王 将去访视市场 的丁字路口附近",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16175008 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "come",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-328",
+  "source_text": "I'll respect it.",
+  "target_text": "我都尊重你的意见",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16235003 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "i'll",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-329",
+  "source_text": "And the vision guide, like a spirit...",
+  "target_text": "这视野指引着我 就像神灵一样...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16695668 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-330",
+  "source_text": "Sir, I needed to make an urgent call.",
+  "target_text": "‪长官 我急着要打个电话",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16696767 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "make",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-331",
+  "source_text": "I'm remind of Keats.",
+  "target_text": "‎我想到济慈说过",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16819555 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-332",
+  "source_text": "It's like you've swallowed the spina bifida website.",
+  "target_text": "搞得跟你吞了脊柱裂缝网一样",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 16999572 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-333",
+  "source_text": "Tanu, please come with me.",
+  "target_text": "跟我来好吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17342698 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "come",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-334",
+  "source_text": "Beat harder!",
+  "target_text": "‎用力击打！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17425995 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-335",
+  "source_text": "Menopause?",
+  "target_text": "‪更年期？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17435344 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-336",
+  "source_text": "Drinking without me?",
+  "target_text": "我还没来你就喝？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17535006 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-337",
+  "source_text": "Sustained.",
+  "target_text": "‎反对有效",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17605975 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-338",
+  "source_text": "You're Jiang Feng's servant.",
+  "target_text": "你是我二弟家的书童",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17691637 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "you're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-339",
+  "source_text": "- Okay.",
+  "target_text": "-好",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17781721 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-340",
+  "source_text": "What?",
+  "target_text": "‎怎么？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 17884879 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-341",
+  "source_text": "- You mean it, right?",
+  "target_text": "一起去吧 我的儿子",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18064993 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-342",
+  "source_text": "Why are you suddenly mentioning that?",
+  "target_text": "你干吗突然说这个啊？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18191765 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-343",
+  "source_text": "Come.",
+  "target_text": "来。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18279329 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "come",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-344",
+  "source_text": "- Yeah, okay.",
+  "target_text": "-好的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18289184 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-345",
+  "source_text": "Dinner will be served in 15 minutes.",
+  "target_text": "晚餐将在十五分钟后呈上 Dinner will be served in 15 minutes.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18366152 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-346",
+  "source_text": "-Car jacks.",
+  "target_text": "‪ -汽车千斤顶 ‪",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18647345 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-347",
+  "source_text": "Since Doyle is the only one who can get the spear, seems like a risk worth taking.",
+  "target_text": "既然道尔是唯一有办法取得长矛的人 -似乎很值得冒险一试",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18649546 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-348",
+  "source_text": "It's rise and decline.",
+  "target_text": "元素一直在跳舞",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18819435 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-349",
+  "source_text": "Let it scan you.",
+  "target_text": "‪让它扫描你",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18830018 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-350",
+  "source_text": "- We can pull Excalibur together.",
+  "target_text": "-我们可以一起拔出圣剑",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18857677 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-351",
+  "source_text": "Help!",
+  "target_text": "救命!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 18885488 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-352",
+  "source_text": "Look.",
+  "target_text": "看啊",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19060311 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "look",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-353",
+  "source_text": "What guy?",
+  "target_text": "什么家伙 What guy?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19120491 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-354",
+  "source_text": "Is someone connected?",
+  "target_text": "有人在联络她吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19180325 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-355",
+  "source_text": "Are you crazy?",
+  "target_text": "‪你疯了吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19204284 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-356",
+  "source_text": "Exit is that way!",
+  "target_text": "‪出口在那边！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19343495 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-357",
+  "source_text": "Rhys Nicholson.",
+  "target_text": "里斯·尼科尔森。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19398729 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-358",
+  "source_text": "Let's go and buy a lottery ticket.",
+  "target_text": "‪我要去买百万彩票",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19649680 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-359",
+  "source_text": "You're quite a simple fellow.",
+  "target_text": "‎那你应该是个简单的人 You're quite a simple fellow.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19733649 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "you're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-360",
+  "source_text": "Those are the fucking terms!",
+  "target_text": "这就是条件",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19839455 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-361",
+  "source_text": "It's my very own chance...",
+  "target_text": "这是我自己",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 19933261 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-362",
+  "source_text": "- What's going on?",
+  "target_text": "-怎么回事？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20376099 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "what's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-363",
+  "source_text": "- Yeah, that's how it works. - Yeah.",
+  "target_text": "是啊 就是这样",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20393903 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-364",
+  "source_text": "You're being ridiculous again.",
+  "target_text": "你又在胡言乱语了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20640836 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "you're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-365",
+  "source_text": "Use high five as an excuse to touch my body.",
+  "target_text": "是借击掌相庆来和我发生肢体接触吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20756974 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-366",
+  "source_text": "- Mehdi.",
+  "target_text": "-迈赫迪",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20769197 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-367",
+  "source_text": "Don't worry about the number of guests.",
+  "target_text": "‪你別擔心賓客人數的問題",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20830069 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "don't",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-368",
+  "source_text": "What kind of reason are you putting?",
+  "target_text": "‎退学理由你写的都是什么呀？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20915923 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-369",
+  "source_text": "♪ Let us thread tomorrow with today ♪",
+  "target_text": "来一起延续今天和明天吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 20995937 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-370",
+  "source_text": "Well, I guess some people just stick around until the porridge is gone, eh, Goldi?",
+  "target_text": "我猜有些人会一直待到粥喝完，对吧，戈尔迪?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21142196 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "well",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-371",
+  "source_text": "In this case, obviously, a groundbreaking fee...",
+  "target_text": "以你们的案子来说绝对是笔大数目",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21503450 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-372",
+  "source_text": "- Yeah, it's enough to make me wanna puke.",
+  "target_text": "- 对 足够让我想吐的了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21664497 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-373",
+  "source_text": "Go ahead. Say it.",
+  "target_text": "来吧 说出来",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21665400 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-374",
+  "source_text": "- Did you see that?",
+  "target_text": "-你看到了吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21674298 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-375",
+  "source_text": "♪ They don't believe it now ♪",
+  "target_text": "♪ 他们现在不相信 ♪",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21717451 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "don't",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-376",
+  "source_text": "Got it, 2B.",
+  "target_text": "我明白了 2B",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21739698 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "got",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-377",
+  "source_text": "W-where is that? -The chart?",
+  "target_text": "那个 那个是在哪里？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21751017 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-378",
+  "source_text": "You look like you're in a good mood.",
+  "target_text": "你看起来心情很好",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 21968661 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-379",
+  "source_text": "There's no time to relocate.",
+  "target_text": "没时间换地方",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 22004992 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-380",
+  "source_text": "Home.",
+  "target_text": "家",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 22186960 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "home",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-381",
+  "source_text": "Better to wait in there. - Mr. Fisher, how are you?",
+  "target_text": "叫他们到厅内等候",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 66864 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-382",
+  "source_text": "Why don't you leave?",
+  "target_text": "你怎么还不走？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 178235 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "don't",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-383",
+  "source_text": "Horrid!",
+  "target_text": "这回好了怎么会这样",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 317051 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-384",
+  "source_text": "♫ I'd go far before I'd find a sweeter pan",
+  "target_text": "比你更甜美的小飞侠 得走更远才能找到",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 382834 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-385",
+  "source_text": "That none of you believe in me or trust me.",
+  "target_text": "知道人人都在监视着我...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 556863 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-386",
+  "source_text": "My son is here.",
+  "target_text": "我兒子住這",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 615806 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-387",
+  "source_text": "- Several. Nobody stays long.",
+  "target_text": "房间接连不断地腾出来",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 783899 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-388",
+  "source_text": "Do you know Ferdinando Lomunno, the building magnate?",
+  "target_text": "-建筑商？ -对",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 953521 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-389",
+  "source_text": "How is it that you arent more familiar with Lomunno?",
+  "target_text": "不认识，干吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 953553 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-390",
+  "source_text": "Tod?",
+  "target_text": "托德？ Tod?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 990285 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-391",
+  "source_text": "Which way?",
+  "target_text": "往哪里走？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1258503 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-392",
+  "source_text": "Yes, if you like.",
+  "target_text": "是的，如果你想要...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1275365 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-393",
+  "source_text": "I have to say, though it is not easy.",
+  "target_text": "我坦率的说 尽管这么说我不容易 但还是要说",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1395482 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-394",
+  "source_text": "Big Bopper to March Hare.",
+  "target_text": "Big Bopper 呼叫 March Hare.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1497973 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-395",
+  "source_text": "- Hey, pretty good?",
+  "target_text": "-嗨 不错 是吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1887630 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "hey",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-396",
+  "source_text": "Oh.",
+  "target_text": "哦",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 1956120 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-397",
+  "source_text": "It isn't!",
+  "target_text": "它不是！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2134076 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-398",
+  "source_text": "Lieutenant Worf is not aboard the Enterprise.",
+  "target_text": "Worf上尉不在企业号上",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2316426 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-399",
+  "source_text": "I just feel this weight pressing down on me.",
+  "target_text": "我只感觉到沉重的压力 一直向我身上压下来",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2453873 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-400",
+  "source_text": "-I'm sure they were.",
+  "target_text": "- 我相信他们会这样",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2769901 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-401",
+  "source_text": "You know, 'cause you have to have all that extra security and everything.",
+  "target_text": "因为你要有额外的保安系统",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2825529 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-402",
+  "source_text": "Why did you want to speak with us?",
+  "target_text": "你为什么想要找我们?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2870137 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "want",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-403",
+  "source_text": "He should have been killed.",
+  "target_text": "他早就该死了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 2948324 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-404",
+  "source_text": "The king is sickly, weak and melancholy. Have patience, sister.",
+  "target_text": "国王病体虚弱 郁郁寡欢",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3001337 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-405",
+  "source_text": "And, gentlemen, allow the women and children through to the front.",
+  "target_text": "让妇女小孩到前面",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3380661 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-406",
+  "source_text": "That's all we'll do, is hate niggers all day.",
+  "target_text": "恨黑鬼一天",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3520581 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "that's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-407",
+  "source_text": "- I put your mouth in the wrong place.",
+  "target_text": "- 我放错了地方你的嘴。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3565799 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-408",
+  "source_text": "WOMAN LIKE IT.",
+  "target_text": "女人喜欢它。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3603529 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-409",
+  "source_text": "But is this a professional conversation?",
+  "target_text": "但是... 這是公務，還是？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3915718 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-410",
+  "source_text": "It must be over there.",
+  "target_text": "必定在这里",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 3944290 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-411",
+  "source_text": "God, I've made so many mistakes.",
+  "target_text": "为自己堕落感到可悲 天啊，一生犯了多少错",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4058027 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "i've",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-412",
+  "source_text": "Yeah, then I could make some bets.",
+  "target_text": "这样我就能去下注了！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4201286 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "yeah",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-413",
+  "source_text": "And you know what else?",
+  "target_text": "还有 你知道吗?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4245457 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-414",
+  "source_text": "That's a mistake!",
+  "target_text": "演戏?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4496454 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "that's",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-415",
+  "source_text": "Remember, today's assignment is about shadow.",
+  "target_text": "记住, 今天指定的家庭作业 是关于影子的.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4629190 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-416",
+  "source_text": "Helps my memory and I forget what else. But don't worry about me.",
+  "target_text": "...其他功能我忘了 别提我担心",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4652572 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "don't",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-417",
+  "source_text": "\"Dinner with Phil.",
+  "target_text": "\"和菲尔晚餐\"",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4761117 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-418",
+  "source_text": "My enemies...",
+  "target_text": "- 我的敌人呢？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 4856857 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-419",
+  "source_text": "That we caught a fish but it wasn't your idea.",
+  "target_text": "我们抓了条鱼,但是这不是你的主意",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5061580 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-420",
+  "source_text": "A la fancy-shmancy.",
+  "target_text": "一辆多可爱的车啊",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5159989 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-421",
+  "source_text": "- I'm talking about your money.",
+  "target_text": "- 我在说你的钱！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5174968 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-422",
+  "source_text": "- and to monitor the health of the agents.",
+  "target_text": "以及监控干员的健康",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5303075 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-423",
+  "source_text": "- is every guy's secret fantasy.",
+  "target_text": "-是每个男人的梦想",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5311473 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-424",
+  "source_text": "I think I'm getting a feel for her.",
+  "target_text": "我对她开始有感觉了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5442887 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-425",
+  "source_text": "I appreciate everything.. I'm overwhelmed with different feelings..",
+  "target_text": "非常謝謝大家 感謝的心全化作眼淚了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5500847 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-426",
+  "source_text": "Before the war?",
+  "target_text": "战前？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5648605 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-427",
+  "source_text": "Do you mind if I sit down for two seconds?",
+  "target_text": "OH,你介意我坐下来一会儿么?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5733957 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-428",
+  "source_text": "I thought he came from money",
+  "target_text": "我还以为他是个有钱的主儿呢 哪里哪里哪里",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5790582 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-429",
+  "source_text": "Stop the nonsense. Drink up.",
+  "target_text": "别废话了，快喝吧",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 5930520 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-430",
+  "source_text": "Let me borrow your cell phone.",
+  "target_text": "你的手机借我.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6016385 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-431",
+  "source_text": "Oh, smart, Ricky, smart.",
+  "target_text": "聪明, 瑞克, 聪明",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6027152 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-432",
+  "source_text": "Fuck!",
+  "target_text": "该死!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6156135 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-433",
+  "source_text": "Listen to me!",
+  "target_text": "听我说!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6304955 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-434",
+  "source_text": "He said it's the tradition to do so!",
+  "target_text": "好像是传统的项目",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6331626 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "said",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-435",
+  "source_text": "Lady, no.",
+  "target_text": "女士 不 不要!",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6367852 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-436",
+  "source_text": "She was saying she slept. Did you hear her?",
+  "target_text": "她说她睡过了 ，有听到吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6592966 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-437",
+  "source_text": "We're gonna be late.",
+  "target_text": "我们要迟到。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 6743750 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "we're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-438",
+  "source_text": "Come on, you're so close. No.",
+  "target_text": "你很接近了 Come on, you're so close.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7142918 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "you're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-439",
+  "source_text": "When this funeral stuff is done with and alex is buried,",
+  "target_text": "当葬礼事宜结束了 也安葬了Alex",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7254178 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-440",
+  "source_text": "We can't do a CT scan.",
+  "target_text": "-我们不能做CT",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7285425 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-441",
+  "source_text": "Wise Spirit... It's me, Katan.",
+  "target_text": "是我 卡坦",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7387706 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-442",
+  "source_text": "One instance of me stealing five grams of her very-high-quality cocaine, and one instance of me blinding a poofy little skinhead.",
+  "target_text": "另一个是我在她那儿偷了五克超纯的可卡因 还有我弄瞎了一个光头娘娘腔",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7443671 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "one",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-443",
+  "source_text": "Yes, Benjamin, it is.",
+  "target_text": "是的，班杰明，事实如此",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7584910 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-444",
+  "source_text": "Volume. Right, let me just see what I've got.",
+  "target_text": "发量，对了，我找找适合的",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7658994 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-445",
+  "source_text": "Know what I remember most about those six months?",
+  "target_text": "这就是生活 知道我在那6个月里印象最深的是什么吗",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 7801833 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-446",
+  "source_text": "Do you need to talk?",
+  "target_text": "- 你想谈谈么？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8147235 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "need",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-447",
+  "source_text": "- Who's behind this?",
+  "target_text": "谁在搞鬼？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8288846 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-448",
+  "source_text": "- Miranda.",
+  "target_text": "-米兰达",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8326703 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-449",
+  "source_text": "- If that's all right with you.",
+  "target_text": "- 如果你不介意",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8555519 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "right",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-450",
+  "source_text": "CHANGE THE FACE OF MEDICINE...",
+  "target_text": "我很現實 還讓醫院重現生機呢...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8772608 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-451",
+  "source_text": "If she kisses me",
+  "target_text": "万一她吻我",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8810428 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-452",
+  "source_text": "Girl! What are you doing?",
+  "target_text": "你这孩子",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8852200 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-453",
+  "source_text": "But he has to meet suppliers.",
+  "target_text": "但他得见供货商",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8892424 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-454",
+  "source_text": "I think I'll favor him one day.",
+  "target_text": "也许有一天我会喜欢上它",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8899401 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-455",
+  "source_text": "Now if for some reason, these spirits were not involved...",
+  "target_text": "現在假設， 如果出於某種原因,精神沒有參與這些的話,",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 8902125 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "now",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-456",
+  "source_text": "It's amazing how fleeting it is, you know?",
+  "target_text": "稍纵即逝 真是奇妙无比",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9253036 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-457",
+  "source_text": "♪ You were beaming once before ♪",
+  "target_text": "278)\\fs36\\fscx1100}■ {\\fs18\\cHFFFFFF} 番天印 安然若水 山炮 268)\\fn方正准圆_GBK}校对：",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9288926 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-458",
+  "source_text": "I'm sorry.",
+  "target_text": "打扰了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9582435 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-459",
+  "source_text": "Oh, give him a break.",
+  "target_text": "哦，让我说下",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9828532 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-460",
+  "source_text": "What do you know about Russian literature?",
+  "target_text": "你知道些什么 关于俄罗斯文学？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 9908351 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "know",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-461",
+  "source_text": "I've seen similar vessels like this...",
+  "target_text": "我曾经见过类似的容器...",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10033991 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-462",
+  "source_text": "- Shut up.",
+  "target_text": "- 闭嘴。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10116503 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-463",
+  "source_text": "Treason?",
+  "target_text": "叛国？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10155209 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-464",
+  "source_text": "Sir, the air's like solid metal.",
+  "target_text": "长官 空气像是凝固了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10291498 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-465",
+  "source_text": "Who told you about my son?",
+  "target_text": "是谁告诉你我儿子的事？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10415960 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-466",
+  "source_text": "Meanwhile, the three of us scream, 'You communist bitch! '",
+  "target_text": "这时，我们仨要喊：\"你个共匪的婊子！\"",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10475481 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-467",
+  "source_text": "You're so loud.",
+  "target_text": "真是吵死了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10525436 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "you're",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-468",
+  "source_text": "- SOMEONE WANTS TO TALK TO YOU.",
+  "target_text": "有人想和你说话",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10558647 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-469",
+  "source_text": "Let go!",
+  "target_text": "走开",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10561080 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-470",
+  "source_text": "I have unfinished business with Loki.",
+  "target_text": "我和洛基还有帐没有算呢",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10653464 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-471",
+  "source_text": "Stay back! Stay back, you fucks!",
+  "target_text": "退后 退后 混蛋",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10827802 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "back",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-472",
+  "source_text": "What do you need me to do?",
+  "target_text": "你要我做什么",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10905259 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "need",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-473",
+  "source_text": "May I ask you to repeat after me,",
+  "target_text": "跟着我的话，..",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 10948518 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-474",
+  "source_text": "- Did she make you cum?",
+  "target_text": "她让你暨吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11130430 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "make",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-475",
+  "source_text": "- Hey, guys, woo-gee-woo.",
+  "target_text": "嘿，伙计们，woogeewoo。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11194093 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "hey",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-476",
+  "source_text": "No. He had a perfect bedside manner.",
+  "target_text": "- 不 他对病人的态度非常好",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11432432 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-477",
+  "source_text": "Look, you impressed me in there.",
+  "target_text": "你看，你给我的印象 在那里。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11532254 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "look",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-478",
+  "source_text": "Gents, I damn near met my maker trying to take that tower once.",
+  "target_text": "各位 我有次试图攻下那座塔 差点送了命",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11580270 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-479",
+  "source_text": "No, I will not have it! We are not going to spend your last supper discussing triangles!",
+  "target_text": "我们不要把你最后的晚餐浪费在讨论三角形上",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11670201 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "going",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-480",
+  "source_text": "There's nothing you could have done.",
+  "target_text": "你也无能为力 {\\cHFFFFFF}{\\3cH2F2F2F}{\\4cH000000}There's nothing you could have done.",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11695283 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-481",
+  "source_text": "It's been crazy around here.",
+  "target_text": "这里一直都很忙",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11747556 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-482",
+  "source_text": "- Lacks work.",
+  "target_text": "- 缺乏工作。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11892774 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-483",
+  "source_text": "- Uh-uh.",
+  "target_text": "-不知道",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11933907 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Short phrase",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-484",
+  "source_text": "How you doing?",
+  "target_text": "你怎么样？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 11986426 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-485",
+  "source_text": "Did he get it from the bunker too?",
+  "target_text": "你只在地堡中吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12049695 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "get",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-486",
+  "source_text": "And we have a Frenchman, Lieutenant Jean-Claude Clermont, director of design at the Chalet School of Fine Arts before the war.",
+  "target_text": "还有一个法国人 让・克劳德・克莱蒙特中尉 ...他是战前夏莱艺术学院的设计总监",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12077286 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-487",
+  "source_text": "Do I need to be worried?",
+  "target_text": "我有必要担心自己的安危吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12347915 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "need",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-488",
+  "source_text": "Hey, you hungry?",
+  "target_text": "你饿了吗 Hey, you hungry?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12508887 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "hey",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-489",
+  "source_text": "To be completely honest, I think what's making your tossing off is that you're often not aware of the baton's center of mass.",
+  "target_text": "我实在是觉得小玉越线抛棒会脱手 是因为你总是找不到平衡点",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12568061 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-490",
+  "source_text": "Oh, just don't point and scream \"Maybe it's Maybelline.\"",
+  "target_text": "只要你不边指边叫\"美来自美宝莲\"就好",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12573736 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "don't",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-491",
+  "source_text": "Then you'll have to put it on carefully.",
+  "target_text": "那你就得小心地穿上了",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12770209 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-492",
+  "source_text": "First, that old gentleman you just saw in here was Mr. Johnny Knoxville, and we are shooting a movie.",
+  "target_text": "首先，老先生，你刚才看到这里 是约翰尼・诺克斯维尔先生，我们正在拍摄一部电影。",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 12790902 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-493",
+  "source_text": "Did I like what you had to offer?",
+  "target_text": "你认为我是看上你的条件吗？",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13039652 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "like",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-494",
+  "source_text": "Don't need to ruin the party.",
+  "target_text": "别这样破坏气氛",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13196154 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "don't",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-495",
+  "source_text": "No, no, no!",
+  "target_text": "不！",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13316359 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Exclamation",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-496",
+  "source_text": "Are we still talking?",
+  "target_text": "我们还要谈吗? Are we still talking?",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13390713 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-497",
+  "source_text": "It's just us girls tonight.",
+  "target_text": "今晚是女生之夜",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13524764 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-498",
+  "source_text": "The nerve of that man, recommending a rebel with a car.",
+  "target_text": "他竟敢介绍一个有车子的叛逆之徒",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13701177 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "(other)",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-499",
+  "source_text": "And she likes sports, so I think we'll get along.",
+  "target_text": "而且她喜欢运动 所以我想我们会处得很好",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13747248 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Statement",
+  "key_term": "think",
+  "human_checked": "no"
+ },
+ {
+  "id": "OS24-500",
+  "source_text": "Holy shit. What the fuck is that?",
+  "target_text": "神啊，他妈的这是干什么",
+  "source": "OpenSubtitles2024 en-zh_CN, sentence id 13775377 (sampled 2026-11-02, seed 2026)",
+  "unit": "sentence pair",
+  "category": "Question",
+  "key_term": "(other)",
+  "human_checked": "no"
  }
 ]

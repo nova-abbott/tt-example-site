@@ -33,6 +33,7 @@
       <div class="chart-box"><h3 data-i18n="viz.zh.h">3 · Chinese renderings (character pairs)</h3><canvas id="zhChart"></canvas></div>
       <div class="chart-box wide"><h3 data-i18n="viz.net.h">4 · Co-occurrence network (English key terms)</h3><p class="cap" data-i18n="viz.net.p">Which key terms appear in the same entry? Thicker lines mean more shared entries. Click a node to search for it.</p><div id="net"></div></div>
       <div class="chart-box wide"><h3 data-i18n="viz.sk.h">5 · Sankey (category → key term)</h3><p class="cap" data-i18n="viz.sk.p">Which categories carry which key terms? Band width is the number of entries. Click a category or term to filter.</p><div id="sankey"></div></div>
+      <div class="chart-box wide"><h3 data-i18n="viz.tm.h">6 · Treemap</h3><p class="cap" data-i18n="viz.tm.p">Rectangle area is the number of entries. Click a rectangle to filter by its category or term.</p><div id="treemap"></div></div>
     </div>
     <h3 data-i18n="viz.ex.h">Examples</h3>
     <ul id="examples" class="examples"></ul>
@@ -165,6 +166,31 @@
         .text(d => d.kind === "cat" ? catLabel(d.key) : d.key);
     }
 
+    // Treemap: category (outer) -> key term (inner); rectangle area = entries.
+    function treemapChart(rows) {
+      const box = document.getElementById("treemap"); box.innerHTML = "";
+      if (!rows.length) { box.textContent = t("viz.none"); return; }
+      const byCat = {};
+      rows.forEach(r => { const c = r.category; byCat[c] = byCat[c] || {}; const k = r.key_term || "(other)"; byCat[c][k] = (byCat[c][k] || 0) + 1; });
+      const data = { name: "root", children: Object.entries(byCat).map(([c, kids]) => ({
+        name: c, kind: "cat", children: Object.entries(kids).map(([k, n]) => ({ name: k, kind: "term", value: n })) })) };
+      const W = box.clientWidth || 640, H = 340;
+      const root = d3.hierarchy(data).sum(d => d.value || 0).sort((a, b) => b.value - a.value);
+      d3.treemap().size([W, H]).paddingInner(2).paddingTop(18)(root);
+      const svg = d3.select(box).append("svg").attr("viewBox", [0, 0, W, H]).attr("width", "100%").attr("height", H);
+      const leaf = root.leaves();
+      const color = d3.scaleOrdinal(["#3f6f96", "#6f9fc4", "#8fb7d6", "#a9c7a0", "#c9a9c7"]);
+      const g = svg.selectAll("g").data(root.descendants().filter(d => d.depth > 0)).join("g")
+        .style("cursor", "pointer").on("click", (e, d) => d.data.kind === "cat" ? pick("cat", d.data.name) : pick("term", d.data.name));
+      g.append("rect").attr("x", d => d.x0).attr("y", d => d.y0).attr("width", d => Math.max(0, d.x1 - d.x0)).attr("height", d => Math.max(0, d.y1 - d.y0))
+        .attr("fill", d => d.depth === 1 ? "#dfe9f1" : color(d.parent.data.name))
+        .attr("stroke", d => (d.data.name === state.term || d.data.name === state.cat) ? "#1f4e79" : "#fff").attr("stroke-width", 2);
+      g.filter(d => d.depth === 1).append("text").attr("x", d => d.x0 + 4).attr("y", d => d.y0 + 13).attr("font-size", 12).attr("font-weight", 700).text(d => catLabel(d.data.name));
+      g.filter(d => d.depth === 2).append("text").attr("x", d => d.x0 + 4).attr("y", d => d.y0 + 14).attr("font-size", 11).attr("fill", "#fff")
+        .text(d => (d.x1 - d.x0) > 40 ? d.data.name : "");
+      g.append("title").text(d => `${d.data.name}: ${d.value}`);
+    }
+
     function render() {
       syncUrl();
       const byTerm = applyFilters(corpus, { query: state.term });
@@ -177,6 +203,7 @@
       barChart("zhChart", topN(both, r => zhPairs(r.target_text), 12), "#a9c7a0", v => pick("term", v), state.term);
       network(both);
       sankeyChart(byCat);
+      treemapChart(byCat);
 
       el.count.textContent = t("viz.count", { n: both.length, total: corpus.length });
       const chips = [];

@@ -131,7 +131,8 @@ const I18N = {
     "cat.Statement": "Statement",
     "cat.Question": "Question",
     "cat.Exclamation": "Exclamation",
-    "cat.Short phrase / command": "Short phrase / command"
+    "cat.Short phrase / command": "Short phrase / command",
+    "cat.Short phrase": "Short phrase",
   },
 
   zh: {
@@ -262,7 +263,8 @@ const I18N = {
     "cat.Statement": "陳述句",
     "cat.Question": "疑問句",
     "cat.Exclamation": "感嘆句",
-    "cat.Short phrase / command": "短語／指令"
+    "cat.Short phrase / command": "短語／指令",
+    "cat.Short phrase": "短語",
   }
 };
 

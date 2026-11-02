@@ -77,7 +77,7 @@
         checked: el.checked.value,
       });
       el.count.textContent = t("explore.count", { n: filtered.length, total: corpus.length });
-      el.rows.innerHTML = filtered.slice(0, 200).map(r => `
+      el.rows.innerHTML = filtered.map(r => `
         <tr>
           <td>${r.id}</td>
           <td>${linkWords(highlight(r.source_text, el.q.value))}</td>
